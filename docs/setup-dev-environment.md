@@ -3,6 +3,7 @@
 
 Este documento tiene las instrucciones de configuración de un entorno de desarrollo local para la aplicación Colouring London. Se asume que de tiene  acceso a una máquina con Ubuntu 20.04 o 22.04 instalado.
 
+
 ## Instalación
 ### Actualizar el sistema
 sudo apt-get update -y
