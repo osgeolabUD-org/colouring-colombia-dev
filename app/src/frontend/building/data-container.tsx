@@ -19,6 +19,10 @@ import { ViewEditControl } from './header-buttons/view-edit-control';
 import './data-container.css';
 import { dataFields } from '../config/data-fields-config'
 
+import {useTranslation} from 'react-i18next'
+import { t } from 'i18next';
+
+
 interface DataContainerProps {
     title: string;
     cat: string;
@@ -413,7 +417,7 @@ const withCopyEdit: (wc: React.ComponentType<CategoryViewProps>) => DataContaine
                                     user={this.props.user}
                                 />
                             </form> :
-                            <InfoBox msg="Select a building to view data"></InfoBox>
+                            <InfoBox msg={t("Select a building to view data")}></InfoBox>
                 }
                 </div>
                 </section>
