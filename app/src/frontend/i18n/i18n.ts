@@ -40,7 +40,8 @@ const resources = {
       "Community":"Comunidad",
       "Select a building to view data":"Seleccione un edificio para ver los datos",
       'Click a building for details':"Click en edificio para detalles",
-      'Click a building to edit':"Click en edifcio para editar"
+      'Click a building to edit':"Click en edifcio para editar",
+      "This is what we're planning to collect on the building's context":"Esto es lo que pensamos recoger sobre el contexto del edificio"
     }
   }
 };

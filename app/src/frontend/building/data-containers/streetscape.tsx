@@ -7,13 +7,15 @@ import NumericDataEntry from '../data-components/numeric-data-entry';
 import withCopyEdit from '../data-container';
 
 import { CategoryViewProps } from './category-view-props';
+import {useTranslation} from 'react-i18next'
+import { t } from 'i18next';
 
 /**
 * Streetscape view/edit section
 */
 const StreetscapeView: React.FunctionComponent<CategoryViewProps> = (props) => (
     <Fragment>
-        <InfoBox msg="This is what we're planning to collect on the building's context" />
+        <InfoBox msg={t("This is what we're planning to collect on the building's context")} />
         <ul className="data-list">
             <li>Gardens</li>
             <li>Trees</li>
