@@ -7,7 +7,7 @@ import NumericDataEntry from '../data-components/numeric-data-entry';
 import withCopyEdit from '../data-container';
 
 import { CategoryViewProps } from './category-view-props';
-import {useTranslation} from 'react-i18next'
+import {useTranslation} from 'react-i18next';
 import { t } from 'i18next';
 
 /**
