@@ -6,7 +6,8 @@ import './header.css';
 import { Logo } from './components/logo';
 import { WithSeparator } from './components/with-separator';
 import { useAuth } from './auth-context';
-
+import {useTranslation} from 'react-i18next';
+import { t } from 'i18next';
 
 interface MenuLink {
     to: string;
@@ -22,63 +23,63 @@ function getCurrentMenuLinks(username: string): MenuLink[][] {
         [
             {
                 to: "/view/categories",
-                text: "View Maps"
+                text: "Ver Mapas"
             },
             {
                 to: "/edit/categories",
-                text: "Edit Maps"
+                text: "Editar mapas"
             },
             {
                 to: "/data-extracts.html",
-                text: "Download data"
+                text: "Descargar datos"
             },
             {
                 to: "https://github.com/colouring-london/colouring-london",
-                text: "Access open code",
+                text: "Acceder codigo abierto",
                 external: true
             },
             {
                 to: "/showcase.html",
-                text: "View Data Showcase",
+                text: "Ver escaparate de datos",
                 disabled: true,
-                note: "Coming soon"
+                note: "se vienen cositas..."
             },
         ],
         [
             {
                 to: "https://pages.colouring.london",
-                text: "About",
+                text: "Sobre",
                 external: true
             },
             {
                 to: "https://pages.colouring.london/buildingcategories",
-                text: "Data Categories",
+                text: "Categorias de los Datos",
                 external: true
             },
             {
                 to: "https://pages.colouring.london/whoisinvolved",
-                text: "Who's Involved?",
+                text: "¿Quién está involucrado?",
                 external: true
             },
             {
                 to: "https://pages.colouring.london/data-ethics",
-                text: "Data Ethics",
+                text: t("Data Ethics"),
                 external: true
             },
             {
                 to: "https://pages.colouring.london/colouring-cities",
-                text: "Colouring Cities Research Programme",
+                text: t("Colouring Cities Research Programme"),
                 external: true
             },
         ],
         [
             {
                 to: "/leaderboard.html",
-                text: "Top Contributors"
+                text: t("Top Contributors")
             },
             {
                 to: "https://discuss.colouring.london",
-                text: "Discussion Forum",
+                text: t("Discussion Forum"),
                 external: true
             },
             {
@@ -90,23 +91,23 @@ function getCurrentMenuLinks(username: string): MenuLink[][] {
         [
             {
                 to: "/privacy-policy.html",
-                text: "Privacy Policy"
+                text: t("Privacy Policy")
             },
             {
                 to: "/contributor-agreement.html",
-                text: "Contributor Agreement"
+                text: t("Contributor Agreement")
             },
             {
                 to: "/code-of-conduct.html",
-                text: "Code of Conduct"
+                text: t("Code of Conduct")
             },
             {
                 to: "/data-accuracy.html",
-                text: "Data Accuracy Agreement"
+                text: t("Data Accuracy Agreement")
             },
             {
                 to: "/ordnance-survey-uprn.html",
-                text: "Ordnance Survey terms of UPRN usage"
+                text: t("Ordnance Survey terms of UPRN usage")
             },
         ],
         [

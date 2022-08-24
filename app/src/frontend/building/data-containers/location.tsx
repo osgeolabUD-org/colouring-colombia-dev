@@ -10,13 +10,15 @@ import withCopyEdit from '../data-container';
 import { PatternDataEntry } from '../data-components/pattern-data-entry';
 
 import { CategoryViewProps } from './category-view-props';
+import {useTranslation} from 'react-i18next';
+import { t } from 'i18next';
 
 const locationNumberPattern = "[1-9]\\d*[a-z]?(-([1-9]\\d*))?"; ///[1-9]\d*[a-z]?(-([1-9]\d*))?/;
 
 const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
     <Fragment>
         <DataEntry
-            title={dataFields.location_name.title}
+            title={t(dataFields.location_name.title)}
             slug="location_name"
             value={props.building.location_name}
             mode={props.mode}
@@ -36,7 +38,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             />
 
         <PatternDataEntry
-            title={dataFields.location_number.title}
+            title={t(dataFields.location_number.title)}
             slug="location_number"
             value={props.building.location_number}
             pattern={locationNumberPattern}
@@ -55,7 +57,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             />
 
         <DataEntry
-            title={dataFields.location_street.title}
+            title={t(dataFields.location_street.title)}
             slug="location_street"
             value={props.building.location_street}
             mode={props.mode}

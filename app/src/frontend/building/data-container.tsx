@@ -413,7 +413,7 @@ const withCopyEdit: (wc: React.ComponentType<CategoryViewProps>) => DataContaine
                                     user={this.props.user}
                                 />
                             </form> :
-                            <InfoBox msg="Select a building to view data"></InfoBox>
+                            <InfoBox msg="Sdata"></InfoBox>
                 }
                 </div>
                 </section>

@@ -37,7 +37,20 @@ const resources = {
       "Planning":"Planificación",
       "Sustainability":"Sustentabilidad",
       "Dynamics":"Mutaciones",
-      "Community":"Comunidad"
+      "Community":"Comunidad",
+      "Select a building to view data": "Seleccione un edificio para ver los datos",
+      "Top Contributors":"mayores contribuyentes",
+      "Data Ethics": "Ètica de datos",
+      "Colouring Cities Research Programme": "Programa de investigación Colouring Cities",
+      "Discussion Forum":"Foro de debate",
+      "Privacy Policy":"Politica de privacidad",
+      "Contributor Agreement":"Acuerdo de Colaboración",
+      "Code of Conduct":"Código de conducta",
+      "Data Accuracy Agreement":"Acuerdo sobre la precisión de los datos",
+      "Ordnance Survey terms of UPRN usage": "Términos de uso de UPRN de Ordnance Survey",
+      "Building information (link)":"Informacion de Construccion (link)",
+      "Building number":"Numero del Edificio",
+      "Street":"Calle"
     }
   }
 };
