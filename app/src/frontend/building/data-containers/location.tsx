@@ -75,7 +75,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             />
 
         <DataEntry
-            title={dataFields.location_line_two.title}
+            title={t(dataFields.location_line_two.title)}
             slug="location_line_two"
             value={props.building.location_line_two}
             mode={props.mode}
@@ -92,7 +92,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             verified_count={props.building.verified.location_line_two}
             />
         <DataEntry
-            title={dataFields.location_town.title}
+            title={t(dataFields.location_town.title)}
             slug="location_town"
             value={props.building.location_town}
             mode={props.mode}
@@ -109,7 +109,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             verified_count={props.building.verified.location_town}
             />
         <DataEntry
-            title={dataFields.location_postcode.title}
+            title={t(dataFields.location_postcode.title)}
             slug="location_postcode"
             value={props.building.location_postcode}
             mode={props.mode}

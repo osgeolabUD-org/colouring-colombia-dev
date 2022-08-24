@@ -50,7 +50,10 @@ const resources = {
       "Ordnance Survey terms of UPRN usage": "Términos de uso de UPRN de Ordnance Survey",
       "Building information (link)":"Informacion de Construccion (link)",
       "Building number":"Numero del Edificio",
-      "Street":"Calle"
+      "Street":"Calle",
+      "Address line 2": "Segunda Direccion",
+      "Town":"Ciudad",
+      "Postcode":"Codigo Postal"
     }
   }
 };
