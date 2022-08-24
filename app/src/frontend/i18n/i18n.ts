@@ -4,6 +4,7 @@ import { i18nextPlugin } from 'translation-check'
 
 
 
+
 // the translations
 // (tip move them in a JSON file and import them,
 // or even better, manage them separated from your code: https://react.i18next.com/guides/multiple-translation-files)
@@ -32,12 +33,14 @@ const resources = {
       "Type":"Tipo",
       "Size":"Tamaño",
       "Construction":"Construcción",
-      "Street Context":"Contexto",
+      "Street Context":"Paisaje Urbano",
       "Team":"Constructor",
       "Planning":"Planificación",
       "Sustainability":"Sustentabilidad",
       "Dynamics":"Mutaciones",
-      "Community":"Comunidad"
+      "Community":"Comunidad",
+      'Select a building to view data':'Seleecione un edificio para ver los datos'
+      
     }
   }
 };
