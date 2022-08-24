@@ -37,7 +37,29 @@ const resources = {
       "Planning":"Planificación",
       "Sustainability":"Sustentabilidad",
       "Dynamics":"Mutaciones",
-      "Community":"Comunidad"
+      "Community":"Comunidad",
+
+
+      
+      "Floor area": "Superficie del suelo",
+      "Storeys": "Pisos",
+      "Height": "Altura",
+      "Total opening area": "Area total de bienvenida",
+      "Core storeys":"Plantas Principales",
+      "How many storeys between the pavement and start of roof?":"¿Cuántos pisos hay entre el suelo y el inicio del techo?",
+      "Attic storeys":"Áticos",
+      "How many storeys above start of roof?":"¿Cuántos pisos de áticos hay sobre el inicio del techo?",
+      "Basement storeys":"Sotanos",
+      "How many storeys below pavement level?":"¿Cuántos pisos de sotano hay por debajo del nivel del pavimento?",
+      "Height to apex (m)":"Altura al techo (m)",
+      "Height to eaves (m)":"Altura al alero (m)",
+      "Ground floor area (m²)":"Superficie de la planta baja (m²)",
+      "Total floor area (m²)":"Superficie total del suelo (m²)",
+      "Frontage Width (m)":"Ancho de fachada(m)"
+
+
+
+
     }
   }
 };

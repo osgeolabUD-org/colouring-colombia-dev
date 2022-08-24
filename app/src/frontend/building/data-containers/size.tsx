@@ -7,7 +7,8 @@ import NumericDataEntry from '../data-components/numeric-data-entry';
 import SelectDataEntry from '../data-components/select-data-entry';
 import Verification from '../data-components/verification';
 import withCopyEdit from '../data-container';
-
+import {useTranslation } from 'react-i18next';
+import { t }  from 'i18next';
 import { CategoryViewProps } from './category-view-props';
 
 /**
@@ -15,7 +16,7 @@ import { CategoryViewProps } from './category-view-props';
 */
 const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
     <Fragment>
-        <DataEntryGroup name="Storeys">
+        <DataEntryGroup name= {t('Storeys')} >
             <NumericDataEntry
                 title={dataFields.size_storeys_core.title}
                 slug="size_storeys_core"
@@ -77,7 +78,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
         </DataEntryGroup>
-        <DataEntryGroup name="Height" collapsed={false}>
+        <DataEntryGroup name= {t("Height")} collapsed={false}>
             <NumericDataEntry
                 title={dataFields.size_height_apex.title}
                 slug="size_height_apex"
@@ -109,7 +110,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 min={0}
                 />
         </DataEntryGroup>
-        <DataEntryGroup name="Floor area">
+        <DataEntryGroup name= {t("Floor area")}>
             <NumericDataEntry
                 title={dataFields.size_floor_area_ground.title}
                 slug="size_floor_area_ground"
@@ -169,7 +170,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
             />
 
         <DataEntry
-            title="Total opening area"
+            title= {t("Total opening area")}
             slug=""
             value=""
             mode='view'
