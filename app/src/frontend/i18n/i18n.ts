@@ -53,7 +53,9 @@ const resources = {
       "Street":"Calle",
       "Address line 2": "Segunda Direccion",
       "Town":"Ciudad",
-      "Postcode":"Codigo Postal"
+      "Postcode":"Codigo Postal",
+      "Latitude":"Latitud",
+      "Longitude":"Longitud"
     }
   }
 };

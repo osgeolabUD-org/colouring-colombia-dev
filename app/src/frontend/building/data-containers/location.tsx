@@ -161,7 +161,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             verified_count={props.building.verified.ref_osm_id}
             />
         <NumericDataEntry
-            title={dataFields.location_latitude.title}
+            title={t(dataFields.location_latitude.title)}
             slug="location_latitude"
             value={props.building.location_latitude}
             mode={props.mode}
@@ -181,7 +181,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             verified_count={props.building.verified.location_latitude}
             />
         <NumericDataEntry
-            title={dataFields.location_longitude.title}
+            title={t(dataFields.location_longitude.title)}
             slug="location_longitude"
             value={props.building.location_longitude}
             mode={props.mode}
