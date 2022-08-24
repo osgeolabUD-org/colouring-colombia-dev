@@ -37,7 +37,8 @@ const resources = {
       "Planning":"Planificación",
       "Sustainability":"Sustentabilidad",
       "Dynamics":"Mutaciones",
-      "Community":"Comunidad"
+      "Community":"Comunidad",
+      "Select a building to view data": "Click en un edificio para ver detalles"
     }
   }
 };
