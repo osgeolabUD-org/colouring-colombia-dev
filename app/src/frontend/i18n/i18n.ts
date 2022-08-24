@@ -1,7 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import { i18nextPlugin } from 'translation-check'
-
+import { t } from 'i18next';
 
 
 
@@ -39,8 +39,22 @@ const resources = {
       "Sustainability":"Sustentabilidad",
       "Dynamics":"Mutaciones",
       "Community":"Comunidad",
-      'Select a building to view data':'Seleecione un edificio para ver los datos'
-      
+      "Select a building to view data":"Seleccione un edificio para ver los datos",
+      "Click a building to edit" : "Haga clic en un edificio para editar",
+      "Can you share your opinion on how well the building works?":"¿Puede compartir su opinión sobre el funcionamiento del edificio?",
+      "Do you like this building and think it contributes to the city?": "¿Le gusta este edificio y cree que contribuye a la ciudad?",
+      "Can you help add information on community use of buildings?": "¿Puede ayudar a añadir información sobre el uso comunitario de los edificios?",
+      "This is what we're planning to collect on the building's context": "Esto es lo que pensamos recoger sobre el contexto del edificio",
+      'Gardens': "Jardines",
+      'Trees':'Arboles',
+      'Green walls':'Muros verdes',
+      'Green roof':'Techo verde',
+      'Proximity to parks and open greenspace':'Proximidad a parques y espacios verdes abiertos',
+      'Building shading':'Sombra del edificio',
+      'We are testing a new feature in this section! Switch between different colour maps by using the dropdown in the legend pane.': '¡Estamos probando una nueva función en esta sección! Cambia entre diferentes mapas de colores utilizando el desplegable del panel de la leyenda.',
+      'Do you think this type of building is generally worth keeping?':'¿Cree que en general merece la pena mantener este tipo de edificios?',
+      'Why is this type of building worth keeping?':'¿Por qué merece la pena conservar este tipo de edificios?'
+
     }
   }
 };

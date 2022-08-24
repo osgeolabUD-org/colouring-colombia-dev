@@ -13,6 +13,8 @@ import './community.css';
 import SelectDataEntry from '../data-components/select-data-entry';
 import Verification from '../data-components/verification';
 import { MultiDataEntry } from '../data-components/multi-data-entry/multi-data-entry';
+import { useTranslation } from 'react-i18next';
+import { t } from 'i18next';
 
 /**
 * Community view/edit section
@@ -21,15 +23,17 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
     const worthKeepingReasonsNonEmpty = Object.values(props.building.community_type_worth_keeping_reasons ?? {}).some(x => x);
     return <>
         <InfoBox type='warning'>
-            We are testing a new feature in this section! Switch between different colour maps by using the dropdown in the legend pane.
+            {t('We are testing a new feature in this section! Switch between different colour maps by using the dropdown in the legend pane.')}
         </InfoBox>
         <div className='community-opinion-pane'>
             <InfoBox>
-                Can you share your opinion on how well the building works?
+                {
+                    t('Can you share your opinion on how well the building works?')
+                }
             </InfoBox>
             <UserOpinionEntry
                 slug='community_like'
-                title={buildingUserFields.community_like.title}
+                title={t(buildingUserFields.community_like.title)}
 
                 userValue={props.building.community_like}
 
@@ -40,8 +44,7 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
             />
             <LogicalDataEntry
                 slug='community_type_worth_keeping'
-                title={buildingUserFields.community_type_worth_keeping.title}
-
+                title={t(buildingUserFields.community_type_worth_keeping.title)}
                 value={props.building.community_type_worth_keeping}
                 disallowFalse={worthKeepingReasonsNonEmpty}
                 disallowNull={worthKeepingReasonsNonEmpty}
@@ -54,7 +57,7 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
                 props.building.community_type_worth_keeping !== false &&
                 <MultiSelectDataEntry
                     slug='community_type_worth_keeping_reasons'
-                    title={buildingUserFields.community_type_worth_keeping_reasons.title}
+                    title={t(buildingUserFields.community_type_worth_keeping_reasons.title)}
                     value={props.building.community_type_worth_keeping_reasons}
                     disabled={!props.building.community_type_worth_keeping}
                     onChange={props.onSaveChange}
@@ -94,7 +97,12 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
             />
         </div>
 
-        <InfoBox>Can you help add information on community use of buildings?</InfoBox>
+        <InfoBox>
+            {
+            t('Can you help add information on community use of buildings?')
+        }
+            
+            </InfoBox>
         <LogicalDataEntry
             slug='community_activities_current'
             title={dataFields.community_activities_current.title}

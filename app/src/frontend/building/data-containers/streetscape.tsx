@@ -7,20 +7,23 @@ import NumericDataEntry from '../data-components/numeric-data-entry';
 import withCopyEdit from '../data-container';
 
 import { CategoryViewProps } from './category-view-props';
+import { useTranslation } from 'react-i18next';
+import { t } from 'i18next';
 
 /**
 * Streetscape view/edit section
 */
 const StreetscapeView: React.FunctionComponent<CategoryViewProps> = (props) => (
     <Fragment>
-        <InfoBox msg="This is what we're planning to collect on the building's context" />
+        <InfoBox msg=
+        {t("This is what we're planning to collect on the building's context")} />
         <ul className="data-list">
-            <li>Gardens</li>
-            <li>Trees</li>
-            <li>Green walls</li>
-            <li>Green roof</li>
-            <li>Proximity to parks and open greenspace</li>
-            <li>Building shading</li>
+            <li>{t('Gardens')}</li>
+            <li>{t('Trees')}</li>
+            <li>{t('Green walls')}</li>
+            <li>{t('Green roof')}</li>
+            <li>{t('Proximity to parks and open greenspace')}</li>
+            <li>{t('Building shading')}</li>
         </ul>
         <NumericDataEntry
             title={dataFields.size_plot_area_total.title}

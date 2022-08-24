@@ -22,7 +22,9 @@ import { Legend } from './legend';
 import SearchBox from './search-box';
 import ThemeSwitcher from './theme-switcher';
 import { BuildingMapTileset } from '../config/tileserver-config';
+import { useTranslation } from 'react-i18next' ;
 import { t } from 'i18next';
+
 
 interface ColouringMapProps {
     selectedBuildingId: number;
@@ -141,8 +143,11 @@ export const ColouringMap : FC<ColouringMapProps> = ({
                     {
                         !hasSelection &&
                         <div className="map-notice">
-                            <HelpIcon /> {isEdit ? 'Click a building to edit' : t('Click a building for details')}
+                            <HelpIcon /> {isEdit ? t('Click a building to edit') :t('Click a building for details')}
+            
                         </div>
+                        
+
                     }
                     <Legend mapColourScaleDefinitions={categoryMapDefinitions} mapColourScale={mapColourScale} onMapColourScale={setMapColourScale}/>
                     <ThemeSwitcher onSubmit={themeSwitch} currentTheme={theme} />
