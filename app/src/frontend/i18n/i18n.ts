@@ -38,8 +38,11 @@ const resources = {
       "Sustainability":"Sustentabilidad",
       "Dynamics":"Mutaciones",
       "Community":"Comunidad",
-      "Select a building to view data": "Click en un edificio para ver detalles"
-    }
+      "Select a building to view data": "Click en un edificio para ver detalles",
+      "Building number": "numero del edificio",
+      "93% of properties in UK are dwellings so we have set this as the default colour. Can you help us colour-in all non-residential and mixed use buildings, and verify residential buildings too?": "Se ha establecido el color amarillo como predeterminado. ¿Puede ayudarnos a colorear todos los edificios no residenciales y de uso mixto, y verificar también los edificios residenciales?"
+
+    }   
   }
 };
 

@@ -10,6 +10,8 @@ import withCopyEdit from '../data-container';
 
 import { CategoryViewProps } from './category-view-props';
 import Verification from '../data-components/verification';
+import {useTranslation} from 'react-i18next';
+import { t } from 'i18next';
 
 /**
  * Use view/edit section
@@ -21,7 +23,7 @@ const UseView: React.FunctionComponent<CategoryViewProps> = (props) => {
        ){
       return (
           <Fragment>
-              <InfoBox msg="93% of properties in UK are dwellings so we have set this as the default colour. Can you help us colour-in all non-residential and mixed use buildings, and verify residential buildings too?"></InfoBox>
+              <InfoBox msg={t("93% of properties in UK are dwellings so we have set this as the default colour. Can you help us colour-in all non-residential and mixed use buildings, and verify residential buildings too?")}></InfoBox>
               <MultiDataEntry
                   title={dataFields.current_landuse_group.title}
                   slug="current_landuse_group"
