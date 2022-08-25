@@ -67,7 +67,7 @@ export const Legend : FC<LegendProps> = ({
                     title && <h4 className="h4">{title}</h4>
             }
             {
-                elements.length > 0 &&
+                elements.length > 0 &&legend-disclaimer
                     <button className="expander-button btn btn-outline-secondary btn-sm" type="button" onClick={handleToggle} >
                         {
                             collapseList ?
