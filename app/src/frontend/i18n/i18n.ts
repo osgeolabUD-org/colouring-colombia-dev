@@ -40,7 +40,34 @@ const resources = {
       "Community":"Comunidad",
       "Select a building to view data": "Click en un edificio para ver detalles",
       "Building number": "numero del edificio",
-      "93% of properties in UK are dwellings so we have set this as the default colour. Can you help us colour-in all non-residential and mixed use buildings, and verify residential buildings too?": "Se ha establecido el color amarillo como predeterminado. ¿Puede ayudarnos a colorear todos los edificios no residenciales y de uso mixto, y verificar también los edificios residenciales?"
+      "93% of properties in UK are dwellings so we have set this as the default colour. Can you help us colour-in all non-residential and mixed use buildings, and verify residential buildings too?": "Se ha establecido el color amarillo como predeterminado. ¿Puede ayudarnos a colorear todos los edificios no residenciales y de uso mixto, y verificar también los edificios residenciales?",
+      "Planning Status":"Estado de la planificación",
+      "Is a planning application live for this site?":"¿Existe una solicitud de planificación para este lugar?",
+      "Is the building proposed for demolition?":"¿se propone la demolición del edificio?",
+      "Has this application recently been been approved/refused?": "¿Esta solicitud ha sido aprobada/rechazada recientemente?",
+      "Has the work been carried out?":"¿Se han realizado las obras?",
+      "For historical planning applications see Planning Portal link": "Para ver el historial de solicitudes de planificación, consulte el enlace del Portal de Planificación",
+      "Designation and Protection": "Designación y protección",
+      "In a conservation area?": "¿En una zona protegida?",
+      "Conservation area name": "Nombre de la zona de conservación",
+      "Is it listed on the National Heritage List for England?": "¿Está incluido en la Lista del Patrimonio Nacional de Colombia",
+      "NHLE list entry link": "Enlace de entrada a la lista ...",
+      "National Heritage List for England list id": "Lista del Patrimonio Nacional de Colombia",
+      "Historic area assessment link": "Enlace a la evaluación de la zona histórica",
+      "Within a historic area assessment?": "¿Dentro de una evaluación de la zona histórica?",
+      "Local list link": "Enlace a la lista local",
+      "Is locally listed?":"¿Está en la lista local?",
+      "Architectural Priority Area tier":"Nivel del área de prioridad arquitectónica",
+      "Architectural Priority Area name": "Nombre del área de prioridad arquitectónica",
+      "In an Architectural Priority Area?": "¿En una zona de prioridad arquitectónica?",
+      "Greater London Historic Environment Record link":"Enlace al Registro de Bogota",
+      "In the Greater London Historic Environment Record?":"¿En el Registro de Bogota?",
+      "World heritage list id":"Identificación de la lista del patrimonio mundial",
+      "Heritage at risk list id": "Identificación de la lista de patrimonio en riesgo",
+      "Listing grade":"Grado de la lista",
+      "National Heritage List for England list type":"Lista del Patrimonio Nacional de Colombia"
+      
+      
 
     }   
   }
