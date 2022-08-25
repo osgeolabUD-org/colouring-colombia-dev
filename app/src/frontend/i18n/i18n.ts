@@ -65,9 +65,24 @@ const resources = {
       "World heritage list id":"Identificación de la lista del patrimonio mundial",
       "Heritage at risk list id": "Identificación de la lista de patrimonio en riesgo",
       "Listing grade":"Grado de la lista",
-      "National Heritage List for England list type":"Lista del Patrimonio Nacional de Colombia"
-      
-      
+      "National Heritage List for England list type":"Lista del Patrimonio Nacional de Colombia",
+      "Can you help us capture information on who built the currentbuilding?":'Puedes ayudarnos a recolectar informacion de quien construyo el edificio seleccionado?',                                        
+      "Landowner(s) at time of construction":'Propietarios al momento de la construcción',
+      "Year built (best estimate)":'Año de la construccion(mejor estimado)',
+      "Is there an extension?":'Hay una extension?',
+      "What type of developer built the building?":'¿Qué tipo de Desarrollador construyó el edificio?',
+      "Who were the developer(s)?":'¿Quienes fueron los Desarrolladores?',
+      "Source links for landowner(s)":'Enlace fuente acerca de los propietarios',
+      "Source links for developer(s)":'Enlace fuente de los Desarrolladores',
+      "Who were the main designer(s)?":'¿Quienes fueron los principales diseñadores?',
+      "Source links for designer(s)":'Enlace fuente acerca de los diseñadores',
+      "Which best describes the lead designer?":'¿Que describe mejor al diseñador principal?',
+      "Did the design team win any awards for this building?":'¿Gano el equipo de diseño algun premio por el edificio?',
+      "Source links for designer award(s)":'Enlace fuente de los premios de los diseñadores',
+      "Name of builder/ construction team":'Nombre del equipo de construcción',
+      "Source builder/ construction team":'Fuentes acerca de la constructora/equipo de construccion',
+      "Other significant members of the team":'Otros miembros relevantes del equipo',
+      "Source other significant team members":'Fuentes acerca de los otros miembros relevantes del equipo'
 
     }   
   }
