@@ -46,7 +46,15 @@ const resources = {
       "Earliest possible start date":"Fecha de inicio de construcción aproximada",
       "Latest possible start year": "Ùltimo año posible de inicio",
       "Facade year": "Fecha de modificacion de fachada",
-      "Source of information":"Fuente de información"  
+      "Source of information":"Fuente de información"  ,
+      'Base type classification': 'Clasificación del tipo de base' ,
+      'Local typology/architectural style':'Tipología local/estilo arquitectónico' ,
+      'Original building use':'Uso original del edificio' ,
+      'Roof type': 'Tipo de techo' ,
+      'Adjacency/configuration':'Adhesión/configuración' ,
+      'Local typology mutations':'Mutaciones de la tipología local' ,
+      '3D procedural model classifications':'Clasificación de los modelos de procedimiento 3D' ,
+      'Dynamic tissue type classificaiton':'Clasificación dinámica del tipo de tejido' ,
     }
   }
 };
