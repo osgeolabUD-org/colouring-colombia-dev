@@ -1,3 +1,5 @@
+
+import { t } from 'i18next';
 import { Category } from './categories-config';
 
 

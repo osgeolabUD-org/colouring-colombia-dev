@@ -55,7 +55,16 @@ const resources = {
       "Town":"Ciudad",
       "Postcode":"Codigo Postal",
       "Latitude":"Latitud",
-      "Longitude":"Longitud"
+      "Longitude":"Longitud",
+      "Core Material":"Material Principàl",
+      "Main Secondary Construction Material/s":"Material/s de construcción principal/es secundario/s",
+      "Main Roof Covering":"Cubierta principal del techo",
+      "Construction system type":"Tipos de sistemas de construcción",
+      'Main roof covering material':'Material principal de la cubierta del techo',
+      'Other construction materials':'Otros materiales de construcción',
+      'The main structural material':'El material estructural principal'
+
+
     }
   }
 };

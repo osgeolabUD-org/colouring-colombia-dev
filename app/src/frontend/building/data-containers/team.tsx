@@ -9,7 +9,8 @@ import { LogicalDataEntry, LogicalDataEntryYesOnly } from '../data-components/lo
 import { DataEntryGroup } from '../data-components/data-entry-group';
 
 import withCopyEdit from '../data-container';
-
+import { useTranslation} from 'react-i18next'
+import { t } from 'i18next'
 import { CategoryViewProps } from './category-view-props';
 
 /**
@@ -21,9 +22,9 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
     const currentBuildingConstructionYear = building.date_year || undefined;
       return (
        <form>
-          <InfoBox msg="Can you help us capture information on who built the current building?"></InfoBox>
+          <InfoBox msg={t("Can you help us capture information on who built the current building?")}></InfoBox>
           <MultiDataEntry
-              title={dataFields.landowner.title}
+              title={t(dataFields.landowner.title)}
               slug="landowner"
               value={props.building.landowner}
               mode={props.mode}
