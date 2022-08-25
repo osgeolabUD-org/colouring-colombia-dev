@@ -76,7 +76,7 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
 
             <UserOpinionEntry
                 slug='community_local_significance'
-                title={buildingUserFields.community_local_significance.title}
+                title={t(buildingUserFields.community_local_significance.title)}
                 
                 userValue={props.building.community_local_significance}
 
@@ -87,7 +87,7 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
 
             <UserOpinionEntry
                 slug='community_expected_planning_application'
-                title={buildingUserFields.community_expected_planning_application.title}
+                title={t(buildingUserFields.community_expected_planning_application.title)}
                 
                 userValue={props.building.community_expected_planning_application}
 
@@ -105,7 +105,7 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
             </InfoBox>
         <LogicalDataEntry
             slug='community_activities_current'
-            title={dataFields.community_activities_current.title}
+            title={t(dataFields.community_activities_current.title)}
             tooltip={dataFields.community_activities_current.tooltip}
             value={props.building.community_activities_current}
             copy={props.copy}
@@ -114,7 +114,7 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
         />
         <LogicalDataEntry
             slug='community_activities'
-            title={dataFields.community_activities.title}
+            title={t(dataFields.community_activities.title)}
             tooltip={dataFields.community_activities.tooltip}
             value={props.building.community_activities}
             copy={props.copy}
@@ -123,7 +123,7 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
         />
         <LogicalDataEntry
             slug='community_activities_always'
-            title={dataFields.community_activities_always.title}
+            title={t(dataFields.community_activities_always.title)}
             tooltip={dataFields.community_activities_always.tooltip}
             value={props.building.community_activities_always}
             copy={props.copy}

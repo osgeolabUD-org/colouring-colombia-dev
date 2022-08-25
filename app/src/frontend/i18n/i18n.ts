@@ -53,7 +53,12 @@ const resources = {
       'Building shading':'Sombra del edificio',
       'We are testing a new feature in this section! Switch between different colour maps by using the dropdown in the legend pane.': '¡Estamos probando una nueva función en esta sección! Cambia entre diferentes mapas de colores utilizando el desplegable del panel de la leyenda.',
       'Do you think this type of building is generally worth keeping?':'¿Cree que en general merece la pena mantener este tipo de edificios?',
-      'Why is this type of building worth keeping?':'¿Por qué merece la pena conservar este tipo de edificios?'
+      'Why is this type of building worth keeping?':'¿Por qué merece la pena conservar este tipo de edificios?',
+      'Do you think this building should be recorded as a local heritage asset?': '¿Cree usted que este edificio debería ser registrado como un bien del patrimonio local?',
+      'Do you expect this site to be affected by a planning application in the near future?':'¿Espera que este lugar se vea afectado por una solicitud de planificación en un futuro próximo?',
+      'Are activities open to the community currently taking place in the building?':'¿Se realizan actualmente actividades abiertas a la comunidad en el edificio?',
+      'Has this ever been used for community activities in the past?':'¿Se ha utilizado alguna vez para actividades comunitarias en el pasado?',
+      'Has the building always been used for community activities?':'¿Se ha utilizado siempre el edificio para actividades comunitarias?'
 
     }
   }
