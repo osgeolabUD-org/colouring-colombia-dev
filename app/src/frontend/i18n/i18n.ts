@@ -32,7 +32,7 @@ const resources = {
       "Type":"Tipo",
       "Size":"Tamaño",
       "Construction":"Construcción",
-      "Street Context":"Contexto",
+      "Street Context":"Paisaje Urbano",
       "Team":"Constructor",
       "Planning":"Planificación",
       "Sustainability":"Sustentabilidad",
@@ -55,6 +55,22 @@ const resources = {
       'Local typology mutations':'Mutaciones de la tipología local' ,
       '3D procedural model classifications':'Clasificación de los modelos de procedimiento 3D' ,
       'Dynamic tissue type classificaiton':'Clasificación dinámica del tipo de tejido' ,
+      'Gardens':'Jardines',
+      'Trees':'Arboles',
+      'Green walls': 'Paredes verdes',
+      'Green roof':'Techo verde',
+      'Proximity to parks and open greenspace': 'Proximidad a parques y espacios verdes abiertos',
+      'Building shading':'Sombreado de edificios',
+      'Total area of plot (m²)': 'Superficie total de la parcela (m²)',
+      'FAR ratio (percentage of plot covered by building)': 'porcentaje de la parcela cubierto por el edificio',
+      'Plot dimensions':'Dimensiones de la parcela',
+      'Plot geometry link':'Enlace de la geometría de la parcela',
+      'Land ownership parcel link': 'Enlace de la parcela de propiedad de la tierra',
+      'Land ownership type': 'Tipo de propiedad de la tierra',
+      'Street width':'Anchura de la calle',
+      'Street network geometry link': 'Enlace de la geometría de la red de calles'
+
+
     }
   }
 };

@@ -17,59 +17,59 @@ const StreetscapeView: React.FunctionComponent<CategoryViewProps> = (props) => (
     <Fragment>
         <InfoBox msg={t("This is what we're planning to collect on the building's context")} />
         <ul className="data-list">
-            <li>Gardens</li>
-            <li>Trees</li>
-            <li>Green walls</li>
-            <li>Green roof</li>
-            <li>Proximity to parks and open greenspace</li>
-            <li>Building shading</li>
+            <li>{t('Gardens')}</li>
+            <li>{t('Trees')}</li>
+            <li>{t('Green walls')}</li>
+            <li>{t('Green roof')}</li>
+            <li>{t('Proximity to parks and open greenspace')}</li>
+            <li>{t('Building shading')}</li>
         </ul>
         <NumericDataEntry
-            title={dataFields.size_plot_area_total.title}
+            title={t(dataFields.size_plot_area_total.title)}
             slug="size_plot_area_total"
             mode='view'
             step={0.1}
             min={0}
         />
         <NumericDataEntry
-            title={dataFields.size_far_ratio.title}
+            title={t(dataFields.size_far_ratio.title)}
             slug="size_far_ratio"
             mode='view'
             step={0.1}
             min={0}
         />
         <DataEntry
-            title="Plot dimensions"
+            title={t("Plot dimensions")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Plot geometry link"
+            title={t("Plot geometry link")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Land ownership parcel link"
+            title={t("Land ownership parcel link")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Land ownership type"
+            title={t("Land ownership type")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Street width"
+            title={t("Street width")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Street network geometry link"
+            title={t("Street network geometry link")}
             slug=""
             value=""
             mode='view'
