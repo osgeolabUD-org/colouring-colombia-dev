@@ -7,6 +7,8 @@ import withCopyEdit from '../data-container';
 import Verification from '../data-components/verification';
 
 import { CategoryViewProps } from './category-view-props';
+import { useTranslation } from 'react-i18next';
+import{t}from 'i18next';
 
 const ConstructionMaterialsOptions = [
     'Wood',
@@ -37,10 +39,10 @@ const ConstructionView: React.FunctionComponent<CategoryViewProps> = (props) => 
     return (
          <Fragment>
              <SelectDataEntry
-                title={dataFields.construction_core_material.title}
+                title={t(dataFields.construction_core_material.title)}
                 slug="construction_core_material"
                 value={props.building.construction_core_material}
-                tooltip={dataFields.construction_core_material.tooltip}
+                tooltip={t(dataFields.construction_core_material.tooltip)}
                 options={ConstructionMaterialsOptions}
                 mode={props.mode}
                 copy={props.copy}
@@ -55,21 +57,21 @@ const ConstructionView: React.FunctionComponent<CategoryViewProps> = (props) => 
                 verified_count={props.building.verified.construction_core_material}
                 />
             <SelectDataEntry
-                title={dataFields.construction_secondary_materials.title}
+                title={t(dataFields.construction_secondary_materials.title)}
                 disabled={true}
                 slug="construction_secondary_materials"
                 value={props.building.construction_secondary_materials}
-                tooltip={dataFields.construction_secondary_materials.tooltip}
+                tooltip={t(dataFields.construction_secondary_materials.tooltip)}
                 options={ConstructionMaterialsOptions}
                 mode={props.mode}
                 copy={props.copy}
                 onChange={props.onChange}
             />
             <SelectDataEntry
-                title={dataFields.construction_roof_covering.title}
+                title={t(dataFields.construction_roof_covering.title)}
                 slug="construction_roof_covering"
                 value={props.building.construction_roof_covering}
-                tooltip={dataFields.construction_roof_covering.tooltip}
+                tooltip={t(dataFields.construction_roof_covering.tooltip)}
                 options={RoofCoveringOptions}
                 mode={props.mode}
                 copy={props.copy}
@@ -84,7 +86,7 @@ const ConstructionView: React.FunctionComponent<CategoryViewProps> = (props) => 
                 verified_count={props.building.verified.construction_roof_covering}
                 />
             <DataEntry
-                title="Construction system type"
+                title={t("Construction system type")}
                 slug=""
                 value=""
                 mode='view'
