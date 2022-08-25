@@ -143,7 +143,7 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
         
         <SelectDataEntry
             slug='community_public_ownership'
-            title={dataFields.community_public_ownership.title}
+            title={t(dataFields.community_public_ownership.title)}
             value={props.building.community_public_ownership}
             options={[
                 'Government-owned',
@@ -167,7 +167,7 @@ const CommunityView: React.FunctionComponent<CategoryViewProps> = (props) => {
                 />
         <MultiDataEntry
             slug='community_public_ownership_sources'
-            title={dataFields.community_public_ownership_sources.title}
+            title={t(dataFields.community_public_ownership_sources.title)}
             isUrl={true}
             placeholder={'https://...'}
             editableEntries={true}

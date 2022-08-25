@@ -58,8 +58,9 @@ const resources = {
       'Do you expect this site to be affected by a planning application in the near future?':'¿Espera que este lugar se vea afectado por una solicitud de planificación en un futuro próximo?',
       'Are activities open to the community currently taking place in the building?':'¿Se realizan actualmente actividades abiertas a la comunidad en el edificio?',
       'Has this ever been used for community activities in the past?':'¿Se ha utilizado alguna vez para actividades comunitarias en el pasado?',
-      'Has the building always been used for community activities?':'¿Se ha utilizado siempre el edificio para actividades comunitarias?'
-
+      'Has the building always been used for community activities?':'¿Se ha utilizado siempre el edificio para actividades comunitarias?',
+      'Is the building in public/community ownership?':'¿El edificio es de propiedad pública/comunitaria?',
+      'Community ownership source link':'Enlace a la fuente de propiedad comunitaria'
     }
   }
 };
