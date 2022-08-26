@@ -18,12 +18,12 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
     <Fragment>
         <DataEntryGroup name= {t('Storeys')} >
             <NumericDataEntry
-                title={dataFields.size_storeys_core.title}
+                title={t(dataFields.size_storeys_core.title)}
                 slug="size_storeys_core"
                 value={props.building.size_storeys_core}
                 mode={props.mode}
                 copy={props.copy}
-                tooltip={dataFields.size_storeys_core.tooltip}
+                tooltip={t(dataFields.size_storeys_core.tooltip)}
                 onChange={props.onChange}
                 step={1}
                 min={0}
@@ -38,7 +38,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <NumericDataEntry
-                title={dataFields.size_storeys_attic.title}
+                title={t(dataFields.size_storeys_attic.title)}
                 slug="size_storeys_attic"
                 value={props.building.size_storeys_attic}
                 mode={props.mode}
@@ -58,7 +58,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <NumericDataEntry
-                title={dataFields.size_storeys_basement.title}
+                title={t(dataFields.size_storeys_basement.title)}
                 slug="size_storeys_basement"
                 value={props.building.size_storeys_basement}
                 mode={props.mode}
@@ -80,7 +80,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
         </DataEntryGroup>
         <DataEntryGroup name= {t("Height")} collapsed={false}>
             <NumericDataEntry
-                title={dataFields.size_height_apex.title}
+                title={t(dataFields.size_height_apex.title)}
                 slug="size_height_apex"
                 value={props.building.size_height_apex}
                 mode={props.mode}
@@ -99,7 +99,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <NumericDataEntry
-                title={dataFields.size_height_eaves.title}
+                title={t(dataFields.size_height_eaves.title)}
                 slug="size_height_eaves"
                 disabled={true}
                 value={props.building.size_height_eaves}
@@ -112,7 +112,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
         </DataEntryGroup>
         <DataEntryGroup name= {t("Floor area")}>
             <NumericDataEntry
-                title={dataFields.size_floor_area_ground.title}
+                title={t(dataFields.size_floor_area_ground.title)}
                 slug="size_floor_area_ground"
                 value={props.building.size_floor_area_ground}
                 mode={props.mode}
@@ -131,7 +131,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <NumericDataEntry
-                title={dataFields.size_floor_area_total.title}
+                title={t(dataFields.size_floor_area_total.title)}
                 slug="size_floor_area_total"
                 value={props.building.size_floor_area_total}
                 mode={props.mode}
@@ -151,7 +151,7 @@ const SizeView: React.FunctionComponent<CategoryViewProps> = (props) => (
 
         </DataEntryGroup>
         <NumericDataEntry
-            title={dataFields.size_width_frontage.title}
+            title={t(dataFields.size_width_frontage.title)}
             slug="size_width_frontage"
             value={props.building.size_width_frontage}
             mode={props.mode}
