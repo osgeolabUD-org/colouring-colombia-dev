@@ -140,7 +140,7 @@ export const ColouringMap : FC<ColouringMapProps> = ({
                     {
                         !hasSelection &&
                         <div className="map-notice">
-                            <HelpIcon /> {isEdit ? 'Click a building to edit' : 'Click a building for details'}
+                            <HelpIcon /> {isEdit ? 'Haga clic en un edificio para editarlo' : 'Haga clic en un edificio para ver los detalles'}
                         </div>
                     }
                     <Legend mapColourScaleDefinitions={categoryMapDefinitions} mapColourScale={mapColourScale} onMapColourScale={setMapColourScale}/>

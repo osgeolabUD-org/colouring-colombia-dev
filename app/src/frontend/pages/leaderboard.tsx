@@ -105,9 +105,9 @@ class LeaderboardPage extends Component<LeaderboardProps, LeaderboardState> {
         return (
             <article>
                 <section className="main-col">
-                    <h1 className="h2">Leaderboard</h1>
+                    <h1 className="h2">Tabla de clasificación</h1>
                     <form>
-                        <label>Select number of users to be displayed</label>
+                        <label>Seleccione el número de usuarios a mostrar</label>
                         <div className="form-group">
                             <div className="form-check-inline">
                                 <input
@@ -134,7 +134,7 @@ class LeaderboardPage extends Component<LeaderboardProps, LeaderboardState> {
                                 <label className="form-check-label" htmlFor="number_100">100</label>
                             </div>
                         </div>
-                        <label>Select time period</label>
+                        <label>Seleccione el periodo de tiempo</label>
                         <div className="form-group">
                             <div className="form-check-inline">
                                 <input
@@ -146,7 +146,7 @@ class LeaderboardPage extends Component<LeaderboardProps, LeaderboardState> {
                                     onChange={this.handleChange}
                                     checked={-1 == this.state.time_limit}
                                     />
-                                <label className="form-check-label" htmlFor="time_all">All time</label>
+                                <label className="form-check-label" htmlFor="time_all">Todo el tiempo</label>
                             </div>
                             <div className="form-check-inline">
                                 <input
@@ -158,7 +158,7 @@ class LeaderboardPage extends Component<LeaderboardProps, LeaderboardState> {
                                     onChange={this.handleChange}
                                     checked={7 == this.state.time_limit}
                                     />
-                                <label className="form-check-label" htmlFor="time_7">Last 7 days</label>
+                                <label className="form-check-label" htmlFor="time_7">Últimos 7 días</label>
                             </div>
                             <div className="form-check-inline">
                                 <input
@@ -170,7 +170,7 @@ class LeaderboardPage extends Component<LeaderboardProps, LeaderboardState> {
                                     onChange={this.handleChange}
                                     checked={30 == this.state.time_limit}
                                     />
-                                <label className="form-check-label" htmlFor="time_30">Last 30 days</label>
+                                <label className="form-check-label" htmlFor="time_30">Úlimos 30 días</label>
                             </div>
                         </div>
                     </form>
@@ -178,8 +178,8 @@ class LeaderboardPage extends Component<LeaderboardProps, LeaderboardState> {
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Username</th>
-                                <th scope="col">Contributions</th>
+                                <th scope="col">Nombre de usuario</th>
+                                <th scope="col">Contribuciones</th>
                             </tr>
                         </thead>
                         <tbody>

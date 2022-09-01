@@ -25,7 +25,7 @@ const resources = {
       "Welcome Second Paragraph":"Colouring Cities es también un programa de investigación, con sede en el Instituto Alan Turing (el instituto nacional del Reino Unido para la ciencia de los datos y la inteligencia artificial). El programa trabaja con socios locales, regionales, nacionales e internacionales para desarrollar un código de plataforma abierta que también sea relevante para otras ciudades.",
       "Welcome Third Paragraph":"Continuamente se añaden nuevos conjuntos de datos y características. Cualquier ayuda que pueda prestar, coloreando nuestros mapas de edificios y enriqueciendo y verificando nuestros conjuntos de datos abiertos, será muy apreciada.",
       "welcome_fourth_paragraph": 'Todos nuestros <1>datos</1> y <3>código</3> pueden descargarse, utilizarse y compartirse libremente con arreglo a las condiciones de nuestra licencia abierta.',
-      "Start Colouring Here!":"Empieza a colorear tu ciudad!",
+      "Start Colouring Here!":"¡Empieza a colorear tu ciudad!",
       "Age":"Edad",
       "Location":"Localización",
       "Land Use":"Uso",
@@ -55,7 +55,44 @@ const resources = {
       "Height to eaves (m)":"Altura al alero (m)",
       "Ground floor area (m²)":"Superficie de la planta baja (m²)",
       "Total floor area (m²)":"Superficie total del suelo (m²)",
-      "Frontage Width (m)":"Ancho de fachada(m)"
+      "Frontage Width (m)":"Ancho de fachada(m)",
+      "View Maps": "Ver mapas",
+
+      "Edit Maps":"Editar mapas",
+      "Download data":"Descargar datos",
+      "View Data Showcase":"Ver escaparate de datos",
+      "Coming soon":"Proximamente",
+      "About":"Sobre",
+      "Data Categories":"Categorías de datos",
+      "Who's Involved?":"¿Quiénes participan?",
+      "Data Ethics":"Ética de los datos",
+      "Colouring Cities Research Programme":"Programa de investigación Colouring Cities",
+      "Top Contributors":"Principales contribuyentes",
+      "Discussion Forum":"Foro de discusión",
+      "Blog":"Blog",
+      "Privacy Policy":"Política de privacidad",
+      "Contributor Agreement":"Acuerdo de colaboración",
+      "Code of Conduct":"Código de conducta",
+      "Data Accuracy Agreement":"Acuerdo sobre la exactitud de los datos",
+      "Ordnance Survey terms of UPRN usage":"Términos de uso de la UPRN de Estudio de Ordenación",
+      "Contact":"Contacto",
+      "Log in":"Iniciar sesión",
+      "Sign up":"Registrarse",
+      "Access open code":"Acceso al código abierto",
+
+      "Select a building to view data":"Seleccione un edificio para ver los datos",
+      "Confirm that the current value is correct":"Confirmar que el valor actual es correcto",
+      "Edit data":"Editar datos",
+      "Welcome to Colouring London. You're one of the first people to use the site!  ": "Bienvenido a Colouring London. ¡Eres una de las primeras personas en utilizar el sitio! ",
+      "Usernames can contain only letters, numbers and the underscore":"Los nombres de usuario sólo pueden contener letras, números y guión bajo",
+      "someone@example.com":"alguien@ejemplo.com",
+      "Please note that if you forget your password, you will only be able to recover your account if you provide an email address.":"Tenga en cuenta que si olvida su contraseña, sólo podrá recuperar su cuenta si proporciona una dirección de correo electrónico.",
+      "Confirm account deletion":"Confirmar la eliminación de la cuenta",
+      "Are you sure you want to delete your account? This cannot be undone.":"¿Estás seguro de que quieres eliminar tu cuenta? Esto no se puede deshacer",
+      "Delete account":"Eliminar cuenta",
+      "Welcome to Colouring London. You're one of the first people to sign up!  ": "Bienvenido a Colouring London. ¡Eres una de las primeras personas en registrarse!  "
+
+      
 
 
 

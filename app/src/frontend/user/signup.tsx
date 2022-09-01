@@ -6,6 +6,7 @@ import ErrorBox from '../components/error-box';
 import { SpinnerIcon } from '../components/icons';
 import InfoBox from '../components/info-box';
 import SupporterLogos from '../components/supporter-logos';
+import { t } from 'i18next';
 
 export const SignUp: React.FC = () => {
     const { isLoading, signup } = useAuth();
@@ -29,44 +30,43 @@ export const SignUp: React.FC = () => {
     return (
         <article>
             <section className="main-col">
-                <h1 className="h2">Sign up</h1>
-                <InfoBox msg="Welcome to Colouring London. You're one of the first people to sign up!  ">
-                    <br/>Please <a href="https://discuss.colouring.london/">discuss
-                    suggestions for improvements</a> and <a
+                <h1 className="h2">Registrarse</h1>
+                <InfoBox msg={t("Welcome to Colouring London. You're one of the first people to sign up!  ")}>
+                    <br/>Por favor <a href="https://discuss.colouring.london/">debatir sugerencias para mejoras</a> e <a
                         href="https://github.com/colouring-london/colouring-london/issues">
-                    report issues or problems</a>.
+                    Informar cuestiones o problemas</a>.
                 </InfoBox>
                 <p>
-                    Create an account to start colouring in.
+                    Crea una cuenta para empezar a colorear.
                 </p>
                 <ErrorBox msg={error} />
                 <form onSubmit={onSubmit}>
-                    <label htmlFor="username">Username*</label>
+                    <label htmlFor="username">Usuario</label>
                     <input name="username" id="username"
                         className="form-control" type="text"
                         value={username} onChange={e => setUsername(e.target.value)}
-                        placeholder="not-your-real-name" required
+                        placeholder="no-su-nombre-real" required
                         minLength={4}
                         maxLength={30}
                         pattern="\w+"
-                        title="Usernames can contain only letters, numbers and the underscore"
+                        title= {t("Usernames can contain only letters, numbers and the underscore")}
                     />
 
-                    <label htmlFor="email">Email (optional)</label>
+                    <label htmlFor="email">Correo (opcional)</label>
                     <input name="email" id="email"
                         className="form-control" type="email"
                         value={email} onChange={e => setEmail(e.target.value)}
-                        placeholder="someone@example.com"
+                        placeholder= {t("someone@example.com")}
                     />
-                    <InfoBox msg="Please note that if you forget your password, you will only be able to recover your account if you provide an email address." />
+                    <InfoBox msg= {t("Please note that if you forget your password, you will only be able to recover your account if you provide an email address.")} />
                     
-                    <label htmlFor="confirm_email">Confirm email (optional)</label>
+                    <label htmlFor="confirm_email">Corfirmar correo (opcional)</label>
                     <input name="confirm_email" id="confirm_email"
                         className="form-control" type="email"
                         value={confirmEmail} onChange={e => setConfirmEmail(e.target.value)}
                     />
 
-                    <label htmlFor="password">Password (at least 8 characters)</label>
+                    <label htmlFor="password">Contraseña (al menos 8 caracteres)</label>
                     <input name="password" id="password"
                         className="form-control"
                         type={(showPassword)? 'text': 'password'}
@@ -83,7 +83,7 @@ export const SignUp: React.FC = () => {
                             onChange={e => setShowPassword(e.target.checked)}
                         />
                         <label className="form-check-label" htmlFor="show_password">
-                            Show password?
+                            Ver contraseña
                         </label>
                     </div>
 
@@ -94,25 +94,25 @@ export const SignUp: React.FC = () => {
                             onChange={e => setConfirmConditions(e.target.checked)}
                             required />
                         <label className="form-check-label" htmlFor="confirm_conditions">
-                            I confirm that I have read and agree to the <Link
-                                to="/privacy-policy.html">privacy policy</Link>, <Link
-                                to="/contributor-agreement.html">contributor agreement</Link> and <Link
-                                to="/data-accuracy.html">data accuracy agreement</Link>.
+                            Confirmo que he leído y acepto la <Link
+                                to="/privacy-policy.html">política de privacidad</Link>, <Link
+                                to="/contributor-agreement.html">acuerdo de colaboración</Link> y <Link
+                                to="/data-accuracy.html">acuerdo sobre la exactitud de los datos</Link>.
                         </label>
                     </div>
 
                     <div className="buttons-container with-space">
-                        <input type="submit" disabled={isLoading} value="Sign Up" className="btn btn-primary" />
-                        {isLoading && <span><SpinnerIcon/>Sending sign up data...</span>}
+                        <input type="submit" disabled={isLoading} value="Registrarse" className="btn btn-primary" />
+                        {isLoading && <span><SpinnerIcon/>Enviando datos de registro...</span>}
                     </div>
                     <InfoBox msg="">
-                        Please also read our <a href="https://www.pages.colouring.london/data-ethics">data ethics policy</a> before using or sharing our data
+                    Lea también nuestro <a href="https://www.pages.colouring.london/data-ethics">política de ética de datos</a> antes de utilizar o compartir nuestros datos
                     </InfoBox>
 
-                    Do you already have an account?
+                    ¿Ya tiene una cuenta?
 
                     <div className="buttons-container with-space">
-                        <Link to="login.html" className="btn btn-outline-dark">Log in</Link>
+                        <Link to="login.html" className="btn btn-outline-dark">Iniciar sesión</Link>
                     </div>
 
                 </form>
