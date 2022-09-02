@@ -24,7 +24,7 @@ const ViewEditControl: React.FC<ViewEditControlProps> = props => (
                             className="icon-button edit"
                             title= {t("Edit data")}
                             to={`/edit/${props.cat}/${props.building.building_id}`}>
-                            Edit
+                            Editar
                             <EditIcon />
                         </NavLink>
 );
