@@ -6,8 +6,8 @@ import './header.css';
 import { Logo } from './components/logo';
 import { WithSeparator } from './components/with-separator';
 import { useAuth } from './auth-context';
+import {useTranslation} from 'react-i18next';
 import { t } from 'i18next';
-
 
 interface MenuLink {
     to: string;
@@ -36,6 +36,7 @@ function getCurrentMenuLinks(username: string): MenuLink[][] {
             {
                 to: "https://github.com/osgeolabUD-org/colouring-colombia",
                 text: t("Access open code"),
+
                 external: true
             },
             {

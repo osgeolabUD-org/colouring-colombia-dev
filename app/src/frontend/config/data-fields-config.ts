@@ -1,3 +1,5 @@
+
+import { t } from 'i18next';
 import { Category } from './categories-config';
 import {useTranslation} from 'react-i18next';
 import { t } from 'i18next';
