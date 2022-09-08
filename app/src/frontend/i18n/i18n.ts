@@ -38,9 +38,13 @@ const resources = {
       "Sustainability":"Sustentabilidad",
       "Dynamics":"Mutaciones",
       "Community":"Comunidad",
-
-
-      
+      "Select a building to view data": "Click en un edificio para ver detalles",
+      "Building number": "numero del edificio",
+      "93% of properties in UK are dwellings so we have set this as the default colour. Can you help us colour-in all non-residential and mixed use buildings, and verify residential buildings too?": "Se ha establecido el color amarillo como predeterminado. ¿Puede ayudarnos a colorear todos los edificios no residenciales y de uso mixto, y verificar también los edificios residenciales?",
+      "Current Land Use (Group)":"Uso actual del suelo (Grupo)",
+      "No entries": "No existen entradas",
+      "Current Land Use (Order)": "Uso actual del suelo (Orden)",
+      "Source of information":"Fuente de información"
       "Floor area": "Superficie del suelo",
       "Storeys": "Pisos",
       "Height": "Altura",
@@ -140,15 +144,7 @@ const resources = {
       "People who think the building will be affected by a planning application in the near future":"Las personas creen que el edificio se verá afectado por una solicitud de planificación en un futuro próximo",
       "Is the building in some form of public/community ownership":"El edificio es de propiedad pública/comunitaria",
       "Yes":"Si"
-      
-
-
-      
-
-
-
-
-    }
+  }
   }
 };
 

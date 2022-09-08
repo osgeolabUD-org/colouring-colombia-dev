@@ -414,8 +414,6 @@ const withCopyEdit: (wc: React.ComponentType<CategoryViewProps>) => DataContaine
                                 />
                             </form> :
                             <InfoBox msg= {t("Select a building to view data")}></InfoBox>
- 
-
                 }
                 </div>
                 </section>
