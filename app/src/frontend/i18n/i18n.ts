@@ -69,9 +69,8 @@ const resources = {
       'Land ownership parcel link': 'Enlace de la parcela de propiedad de la tierra',
       'Land ownership type': 'Tipo de propiedad de la tierra',
       'Street width':'Anchura de la calle',
-      'Street network geometry link': 'Enlace de la geometría de la red de calles'
+      'Street network geometry link': 'Enlace de la geometría de la red de calles',
 
-      "Select a building to view data": "Seleccione un edificio para ver los datos",
       "Top Contributors":"mayores contribuyentes",
       "Data Ethics": "Ètica de datos",
       "Colouring Cities Research Programme": "Programa de investigación Colouring Cities",
@@ -89,15 +88,14 @@ const resources = {
       "Postcode":"Codigo Postal",
       "Latitude":"Latitud",
       "Longitude":"Longitud",
-      "Core Material":"Material Principàl",
+      "Core Material":"Material Principal",
       "Main Secondary Construction Material/s":"Material/s de construcción principal/es secundario/s",
       "Main Roof Covering":"Cubierta principal del techo",
       "Construction system type":"Tipos de sistemas de construcción",
       'Main roof covering material':'Material principal de la cubierta del techo',
       'Other construction materials':'Otros materiales de construcción',
-      'The main structural material':'El material estructural principal'
+      'The main structural material':'El material estructural principal',
 
-      "Building number": "numero del edificio",
       "93% of properties in UK are dwellings so we have set this as the default colour. Can you help us colour-in all non-residential and mixed use buildings, and verify residential buildings too?": "Se ha establecido el color amarillo como predeterminado. ¿Puede ayudarnos a colorear todos los edificios no residenciales y de uso mixto, y verificar también los edificios residenciales?",
 
       "Planning Status":"Estado de la planificación",
@@ -141,12 +139,12 @@ const resources = {
       "Name of builder/ construction team":'Nombre del equipo de construcción',
       "Source builder/ construction team":'Fuentes acerca de la constructora/equipo de construccion',
       "Other significant members of the team":'Otros miembros relevantes del equipo',
-      "Source other significant team members":'Fuentes acerca de los otros miembros relevantes del equipo'
+      "Source other significant team members":'Fuentes acerca de los otros miembros relevantes del equipo',
 
       "Current Land Use (Group)":"Uso actual del suelo (Grupo)",
       "No entries": "No existen entradas",
       "Current Land Use (Order)": "Uso actual del suelo (Orden)",
-      "Source of information":"Fuente de información"
+      
       "Floor area": "Superficie del suelo",
       "Storeys": "Pisos",
       "Height": "Altura",
@@ -172,22 +170,12 @@ const resources = {
       "About":"Sobre",
       "Data Categories":"Categorías de datos",
       "Who's Involved?":"¿Quiénes participan?",
-      "Data Ethics":"Ética de los datos",
-      "Colouring Cities Research Programme":"Programa de investigación Colouring Cities",
-      "Top Contributors":"Principales contribuyentes",
-      "Discussion Forum":"Foro de discusión",
       "Blog":"Blog",
-      "Privacy Policy":"Política de privacidad",
-      "Contributor Agreement":"Acuerdo de colaboración",
-      "Code of Conduct":"Código de conducta",
-      "Data Accuracy Agreement":"Acuerdo sobre la exactitud de los datos",
-      "Ordnance Survey terms of UPRN usage":"Términos de uso de la UPRN de Estudio de Ordenación",
       "Contact":"Contacto",
       "Log in":"Iniciar sesión",
       "Sign up":"Registrarse",
       "Access open code":"Acceso al código abierto",
 
-      "Select a building to view data":"Seleccione un edificio para ver los datos",
       "Confirm that the current value is correct":"Confirmar que el valor actual es correcto",
       "Edit data":"Editar datos",
       "Welcome to Colouring London. You're one of the first people to use the site!  ": "Bienvenido a Colouring London. ¡Eres una de las primeras personas en utilizar el sitio! ",
