@@ -9,7 +9,8 @@ import { LogicalDataEntry, LogicalDataEntryYesOnly } from '../data-components/lo
 import { DataEntryGroup } from '../data-components/data-entry-group';
 
 import withCopyEdit from '../data-container';
-
+import { useTranslation} from 'react-i18next'
+import { t } from 'i18next'
 import { CategoryViewProps } from './category-view-props';
 
 /**
@@ -21,9 +22,9 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
     const currentBuildingConstructionYear = building.date_year || undefined;
       return (
        <form>
-          <InfoBox msg="Can you help us capture information on who built the current building?"></InfoBox>
+          <InfoBox msg={t("Can you help us capture information on who built the current building?")}></InfoBox>
           <MultiDataEntry
-              title={dataFields.landowner.title}
+              title={t(dataFields.landowner.title)}
               slug="landowner"
               value={props.building.landowner}
               mode={props.mode}
@@ -42,7 +43,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
               verified_count={props.building.verified.landowner}
               />
           <MultiDataEntry
-              title={dataFields.landowner_source_link.title}
+              title={t(dataFields.landowner_source_link.title)}
               slug="landowner_source_link"
               value={props.building.landowner_source_link}
               mode={props.mode}
@@ -63,7 +64,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
               />
           <NumericDataEntry
               slug='date_year'
-              title={dataFields.date_year.title}
+              title={t(dataFields.date_year.title)}
               value={currentBuildingConstructionYear}
               mode={props.mode}
               copy={props.copy}
@@ -82,7 +83,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
               verified_count={props.building.verified.date_year}
               />
           <LogicalDataEntry
-              title={dataFields.has_extension.title}
+              title={t(dataFields.has_extension.title)}
               slug="has_extension"
               value={props.building.has_extension}
               mode={props.mode}
@@ -116,7 +117,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
         ) : (null)}
           <SelectDataEntry
               slug='developer_type'
-              title={dataFields.developer_type.title}
+              title={t(dataFields.developer_type.title)}
               value={props.building.developer_type}
               options={dataFields.developer_type.items}
               onChange={props.onChange}
@@ -132,7 +133,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
               verified_count={props.building.verified.developer_type}
               />
           <MultiDataEntry
-              title={dataFields.developer_name.title}
+              title={t(dataFields.developer_name.title)}
               slug="developer_name"
               value={props.building.developer_name}
               mode={props.mode}
@@ -151,7 +152,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
               verified_count={props.building.verified.developer_name}
               />
           <MultiDataEntry
-              title={dataFields.developer_source_link.title}
+              title={t(dataFields.developer_source_link.title)}
               slug="developer_source_link"
               value={props.building.developer_source_link}
               mode={props.mode}
@@ -171,7 +172,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
               verified_count={props.building.verified.developer_source_link}
               />
           <MultiDataEntry
-              title={dataFields.designers.title}
+              title={t(dataFields.designers.title)}
               slug="designers"
               value={props.building.designers}
               mode={props.mode}
@@ -190,7 +191,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
               verified_count={props.building.verified.designers}
               />
           <MultiDataEntry
-              title={dataFields.designers_source_link.title}
+              title={t(dataFields.designers_source_link.title)}
               slug="designers_source_link"
               value={props.building.designers_source_link}
               mode={props.mode}
@@ -211,7 +212,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
               />
           <SelectDataEntry
               slug='lead_designer_type'
-              title={dataFields.lead_designer_type.title}
+              title={t(dataFields.lead_designer_type.title)}
               value={props.building.lead_designer_type}
               options={dataFields.lead_designer_type.items}
               onChange={props.onChange}
@@ -228,7 +229,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
               />
           <LogicalDataEntryYesOnly
               slug='designer_awards'
-              title={dataFields.designer_awards.title}
+              title={t(dataFields.designer_awards.title)}
               tooltip={dataFields.designer_awards.tooltip}
               value={props.building.designer_awards}
               copy={props.copy}
@@ -246,7 +247,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
         {props.building.designer_awards ? (
           <>
           <MultiDataEntry
-              title={dataFields.awards_source_link.title}
+              title={t(dataFields.awards_source_link.title)}
               slug="awards_source_link"
               value={props.building.awards_source_link}
               mode={props.mode}
@@ -269,7 +270,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
         ) : (null)
        }
        <MultiDataEntry
-           title={dataFields.builder.title}
+           title={t(dataFields.builder.title)}
            slug="builder"
            value={props.building.builder}
            mode={props.mode}
@@ -287,7 +288,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
            verified_count={props.building.verified.builder}
            />
        <MultiDataEntry
-           title={dataFields.builder_source_link.title}
+           title={t(dataFields.builder_source_link.title)}
            slug="builder_source_link"
            value={props.building.builder_source_link}
            mode={props.mode}
@@ -306,7 +307,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
            verified_count={props.building.verified.builder_source_link}
            />
        <MultiDataEntry
-           title={dataFields.other_team.title}
+           title={t(dataFields.other_team.title)}
            slug="other_team"
            value={props.building.other_team}
            mode={props.mode}
@@ -324,7 +325,7 @@ const TeamView: React.FunctionComponent<CategoryViewProps> = (props) => {
            verified_count={props.building.verified.other_team}
            />
        <MultiDataEntry
-           title={dataFields.other_team_source_link.title}
+           title={t(dataFields.other_team_source_link.title)}
            slug="other_team_source_link"
            value={props.building.other_team_source_link}
            mode={props.mode}

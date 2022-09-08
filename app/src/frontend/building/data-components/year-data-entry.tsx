@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
-
+import {useTranslation} from 'react-i18next'
+import {t} from 'i18next'
 import Verification from './verification';
 import { dataFields } from '../../config/data-fields-config';
 import { CopyProps } from '../data-containers/category-view-props';

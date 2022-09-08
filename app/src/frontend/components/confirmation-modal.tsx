@@ -49,7 +49,7 @@ const ConfirmationModal: React.FunctionComponent<ConfirmationModalProps> = ({
                                 type="button"
                                 className={`btn btn-block ${cancelButtonClass}`}
                                 onClick={() => props.onCancel()}
-                            >Cancel</button>
+                            >Cancelar</button>
                         </div>
                     </div>
                 </div>

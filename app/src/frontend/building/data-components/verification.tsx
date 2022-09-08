@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { VerifyIcon } from '../../components/icons';
+import { t } from 'i18next';
 
 import './verification.css';
 
@@ -60,10 +61,10 @@ class Verification extends Component<VerificationProps, any> {
                     <Fragment>
                         <button
                             className="btn btn-success"
-                            title="Confirm that the current value is correct"
+                            title={t("Confirm that the current value is correct")}
                             disabled={!props.allow_verify}
                             onClick={this.handleClick(true)}>
-                            Verify
+                            Verificar
                         </button>
                     </Fragment>
             }

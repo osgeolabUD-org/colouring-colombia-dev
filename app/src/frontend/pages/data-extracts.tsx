@@ -40,36 +40,33 @@ export default class DataExtracts extends React.Component<{}, DataExtractsState>
         return (
             <article>
                 <section className="main-col">
-                    <h1 className="h2">Open data extracts</h1>
+                    <h1 className="h2">Extractos de datos abiertos</h1>
                     <p>
-                    Choose one of the links below to download an archive containing the open data collected on the Colouring London platform
+                    Elija uno de los siguientes enlaces para descargar un archivo con los datos abiertos recolectados en la plataforma  de Colouring London                    </p>
+                    <p>
+                    Las contribuciones de Colouring Bogotá son datos abiertos, bajo la licencia de <a href="http://opendatacommons.org/licenses/odbl/">Licencia de base de datos abierta de Open Data Commons</a> (ODbL) por los colaboradores de Colouring Bogotá.
                     </p>
                     <p>
-                    Colouring London contributions are open data, licensed under the <a href="http://opendatacommons.org/licenses/odbl/">Open Data Commons Open Database License</a> (ODbL) by Colouring London contributors.
-                    </p>
+                    Usted es libre de copiar, distribuir, transmitir y adaptar nuestros datos, siempre que dé crédito a Colouring London y a nuestros colaboradores. Si modifica nuestros datos o se basa en ellos, sólo podrá distribuir el resultado bajo la misma licencia.                    </p>
                     <p>
-                    You are free to copy, distribute, transmit and adapt our data, as long as you credit Colouring London and our contributors. If you alter or build upon our data, you may distribute the result only under the same licence.
-                    </p>
+                    Elija uno de los siguientes enlaces para descargar un archivo con los datos abiertos recogidos en la plataforma Colouring London.                    </p>
                     <p>
-                    Choose one of the links below to download an archive containing the open data collected on the Colouring London platform.
-                    </p>
-                    <p>
-                    By downloading data extracts from this site, you agree to the <Link to="/data-accuracy.html">data accuracy agreement</Link> and the <Link to="/ordnance-survey-uprn.html">Ordnance Survey terms of UPRN usage</Link>.
+                    Al descargar extractos de datos de este sitio, usted acepta el <Link to="/data-accuracy.html">acuerdo sobre la exactitud de los datos</Link> y los <Link to="/ordnance-survey-uprn.html">términos de uso de la UPRN de Estudio de Ordenación</Link>.
                     </p>
 
                     {
                         this.state.extracts == undefined ?
-                            <p>Loading extracts...</p> :
+                            <p>Cargando extractos...</p> :
                             (
                                 this.state.extracts.length === 0 ?
-                                    <p>No extracts available</p> :
+                                    <p>No hay extractos disponibles</p> :
                                     null
                             )
                     }
                     {
                         this.state.latestExtract != undefined ?
                             <div>
-                                <h1 className="h3">Latest extract</h1>
+                                <h1 className="h3">Ultimo Extracto</h1>
                                 <ExtractDownloadLink {...this.state.latestExtract} />
                             </div> :
                             null
@@ -77,7 +74,7 @@ export default class DataExtracts extends React.Component<{}, DataExtractsState>
                     {
                         this.state.previousExtracts && this.state.previousExtracts.length > 0 ?
                             (<div>
-                                <h1 className="h3">Older extracts</h1>
+                                <h1 className="h3">Extractos antiguos</h1>
                                 <ul>
                                 {
                                     this.state.previousExtracts.map(e =>

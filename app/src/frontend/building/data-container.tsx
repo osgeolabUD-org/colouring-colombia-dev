@@ -18,11 +18,8 @@ import { ViewEditControl } from './header-buttons/view-edit-control';
 
 import './data-container.css';
 import { dataFields } from '../config/data-fields-config'
-
 import {useTranslation} from 'react-i18next'
 import { t } from 'i18next';
-
-
 interface DataContainerProps {
     title: string;
     cat: string;
@@ -315,7 +312,7 @@ const withCopyEdit: (wc: React.ComponentType<CategoryViewProps>) => DataContaine
                             className="icon-button help"
                             title="Find out more"
                             href={this.props.help}>
-                            Info
+                            Informacion
                         </a>
                     : null
                 }
@@ -334,7 +331,7 @@ const withCopyEdit: (wc: React.ComponentType<CategoryViewProps>) => DataContaine
                                     <NavLink
                                         className="icon-button history"
                                         to={`/${this.props.mode}/${this.props.cat}/${this.props.building.building_id}/history`}
-                                    >History</NavLink>
+                                    >Historia</NavLink>
                                     <ViewEditControl
                                         cat={this.props.cat}
                                         mode={this.props.mode}
@@ -417,7 +414,7 @@ const withCopyEdit: (wc: React.ComponentType<CategoryViewProps>) => DataContaine
                                     user={this.props.user}
                                 />
                             </form> :
-                            <InfoBox msg={t("Select a building to view data")}></InfoBox>
+                            <InfoBox msg= {t("Select a building to view data")}></InfoBox>
                 }
                 </div>
                 </section>
