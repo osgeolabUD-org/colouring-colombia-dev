@@ -23,42 +23,43 @@ function getCurrentMenuLinks(username: string): MenuLink[][] {
         [
             {
                 to: "/view/categories",
-                text: "Ver Mapas"
+                text: t("View Maps")
             },
             {
                 to: "/edit/categories",
-                text: "Editar mapas"
+                text: t("Edit Maps")
             },
             {
                 to: "/data-extracts.html",
-                text: "Descargar datos"
+                text: t("Download data")
             },
             {
-                to: "https://github.com/colouring-london/colouring-london",
-                text: "Acceder codigo abierto",
+                to: "https://github.com/osgeolabUD-org/colouring-colombia",
+                text: t("Access open code"),
+
                 external: true
             },
             {
                 to: "/showcase.html",
-                text: "Ver escaparate de datos",
+                text: t("View Data Showcase"),
                 disabled: true,
-                note: "se vienen cositas..."
+                note: t("Coming soon")
             },
         ],
         [
             {
                 to: "https://pages.colouring.london",
-                text: "Sobre",
+                text: t("About"),
                 external: true
             },
             {
                 to: "https://pages.colouring.london/buildingcategories",
-                text: "Categorias de los Datos",
+                text: t("Data Categories"),
                 external: true
             },
             {
                 to: "https://pages.colouring.london/whoisinvolved",
-                text: "¿Quién está involucrado?",
+                text: t("Who's Involved?"),
                 external: true
             },
             {
@@ -84,7 +85,7 @@ function getCurrentMenuLinks(username: string): MenuLink[][] {
             },
             {
                 to: "https://discuss.colouring.london/c/blog/9",
-                text: "Blog",
+                text: t("Blog"),
                 external: true
             },
         ],
@@ -113,24 +114,24 @@ function getCurrentMenuLinks(username: string): MenuLink[][] {
         [
             {
                 to: "/contact.html",
-                text: "Contact"
+                text: t("Contact")
             },
             ...(
                 username != undefined ?
                     [
                         {
                             to: "/my-account.html",
-                            text: `Account (${username})`
+                            text: `Cuenta (${username})`
                         }
                     ] :
                     [
                         {
                             to: "/login.html",
-                            text: "Log in"
+                            text: t("Log in")
                         },
                         {
                             to: "/sign-up.html",
-                            text: "Sign up"
+                            text: t("Sign up")
                         }
                     ]
             )
@@ -198,7 +199,7 @@ export const Header: React.FC<{
             </NavLink>
             <button className="navbar-toggler" type="button"
                 onClick={toggleCollapse} aria-expanded={!collapseMenu} aria-label="Toggle navigation">
-                Menu&nbsp;
+                Menú&nbsp;
                 {
                     collapseMenu ?
                         <span className="navbar-toggler-icon"></span>

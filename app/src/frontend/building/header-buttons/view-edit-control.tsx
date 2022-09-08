@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import { EditIcon, ViewIcon } from '../../components/icons';
 import { Building } from '../../models/building';
+import { t } from 'i18next';
 
 interface ViewEditControlProps {
     cat: string;
@@ -21,9 +22,9 @@ const ViewEditControl: React.FC<ViewEditControlProps> = props => (
                         </NavLink>
                         : <NavLink
                             className="icon-button edit"
-                            title="Edit data"
+                            title= {t("Edit data")}
                             to={`/edit/${props.cat}/${props.building.building_id}`}>
-                            Edit
+                            Editar
                             <EditIcon />
                         </NavLink>
 );

@@ -1,8 +1,8 @@
 
 import { t } from 'i18next';
 import { Category } from './categories-config';
-
-
+import {useTranslation} from 'react-i18next';
+import { t } from 'i18next';
 /**
  * This interface is used only in code which uses dataFields, not in the dataFields definition itself
  * Cannot make dataFields an indexed type ({[key: string]: DataFieldDefinition}),
@@ -265,7 +265,7 @@ export const dataFields = { /* eslint-disable @typescript-eslint/camelcase */
 
     date_year: {
         category: Category.Age,
-        title: "Year built (best estimate)",
+        title:"Year built (best estimate)",
         example: 1924,
     },
     date_lower : {
