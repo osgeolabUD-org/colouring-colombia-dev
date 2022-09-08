@@ -10,6 +10,8 @@ import YearDataEntry from '../data-components/year-data-entry';
 import withCopyEdit from '../data-container';
 
 import { CategoryViewProps } from './category-view-props';
+import { useTranslation } from 'react-i18next';
+import { t } from 'i18next';
 
 /**
 * Age view/edit section
@@ -49,7 +51,7 @@ const AgeView: React.FunctionComponent<CategoryViewProps> = (props) => {
                   verified_count_lower={props.building.verified.date_lower}
                   />
               <NumericDataEntry
-                  title={dataFields.facade_year.title}
+                  title={t(dataFields.facade_year.title)}
                   slug="facade_year"
                   value={props.building.facade_year}
                   mode={props.mode}
@@ -70,7 +72,7 @@ const AgeView: React.FunctionComponent<CategoryViewProps> = (props) => {
                   />
 
               <SelectDataEntry
-                  title={dataFields.date_source.title}
+                  title={t(dataFields.date_source.title)}
                   slug="date_source"
                   value={props.building.date_source}
                   mode={props.mode}

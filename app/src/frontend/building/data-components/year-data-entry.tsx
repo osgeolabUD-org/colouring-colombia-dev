@@ -6,6 +6,8 @@ import { dataFields } from '../../config/data-fields-config';
 import { CopyProps } from '../data-containers/category-view-props';
 
 import NumericDataEntry from './numeric-data-entry';
+import { Trans, useTranslation } from 'react-i18next';
+import { t } from 'i18next';
 
 interface YearDataEntryProps {
     year: number;
@@ -56,7 +58,7 @@ class YearDataEntry extends Component<YearDataEntryProps, any> {
         return (
             <Fragment>
                 <NumericDataEntry
-                    title={dataFields.date_year.title}
+                    title={t(dataFields.date_year.title)}
                     slug="date_year"
                     value={props.year}
                     mode={props.mode}
@@ -76,7 +78,7 @@ class YearDataEntry extends Component<YearDataEntryProps, any> {
                     />
 
                 <NumericDataEntry
-                    title={dataFields.date_lower.title}
+                    title={t(dataFields.date_lower.title)}
                     slug="date_lower"
                     value={props.lower}
                     mode={props.mode}
@@ -97,7 +99,7 @@ class YearDataEntry extends Component<YearDataEntryProps, any> {
                     />
 
                 <NumericDataEntry
-                    title={dataFields.date_upper.title}
+                    title={t(dataFields.date_upper.title)}
                     slug="date_upper"
                     value={props.upper}
                     mode={props.mode}

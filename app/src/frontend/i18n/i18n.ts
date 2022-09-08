@@ -32,12 +32,44 @@ const resources = {
       "Type":"Tipo",
       "Size":"Tamaño",
       "Construction":"Construcción",
-      "Street Context":"Contexto",
+      "Street Context":"Paisaje Urbano",
       "Team":"Constructor",
       "Planning":"Planificación",
       "Sustainability":"Sustentabilidad",
       "Dynamics":"Mutaciones",
       "Community":"Comunidad",
+
+      "Select a building to view data":"Seleccione un edificio para ver los datos",
+      'Click a building for details':"Click en edificio para detalles",
+      'Click a building to edit':"Click en edifcio para editar",
+      "This is what we're planning to collect on the building's context":"Esto es lo que pensamos recoger sobre el contexto del edificio",
+      "Year built best estimate":"Año de construcción",
+      "Earliest possible start date":"Fecha de inicio de construcción aproximada",
+      "Latest possible start year": "Ùltimo año posible de inicio",
+      "Facade year": "Fecha de modificacion de fachada",
+      "Source of information":"Fuente de información"  ,
+      'Base type classification': 'Clasificación del tipo de base' ,
+      'Local typology/architectural style':'Tipología local/estilo arquitectónico' ,
+      'Original building use':'Uso original del edificio' ,
+      'Roof type': 'Tipo de techo' ,
+      'Adjacency/configuration':'Adhesión/configuración' ,
+      'Local typology mutations':'Mutaciones de la tipología local' ,
+      '3D procedural model classifications':'Clasificación de los modelos de procedimiento 3D' ,
+      'Dynamic tissue type classificaiton':'Clasificación dinámica del tipo de tejido' ,
+      'Gardens':'Jardines',
+      'Trees':'Arboles',
+      'Green walls': 'Paredes verdes',
+      'Green roof':'Techo verde',
+      'Proximity to parks and open greenspace': 'Proximidad a parques y espacios verdes abiertos',
+      'Building shading':'Sombreado de edificios',
+      'Total area of plot (m²)': 'Superficie total de la parcela (m²)',
+      'FAR ratio (percentage of plot covered by building)': 'porcentaje de la parcela cubierto por el edificio',
+      'Plot dimensions':'Dimensiones de la parcela',
+      'Plot geometry link':'Enlace de la geometría de la parcela',
+      'Land ownership parcel link': 'Enlace de la parcela de propiedad de la tierra',
+      'Land ownership type': 'Tipo de propiedad de la tierra',
+      'Street width':'Anchura de la calle',
+      'Street network geometry link': 'Enlace de la geometría de la red de calles'
 
       "Select a building to view data": "Seleccione un edificio para ver los datos",
       "Top Contributors":"mayores contribuyentes",
@@ -216,6 +248,7 @@ const resources = {
       "Is the building in some form of public/community ownership":"El edificio es de propiedad pública/comunitaria",
       "Yes":"Si"
   }
+
   }
 };
 
