@@ -263,7 +263,7 @@ export const dataFields = { /* eslint-disable @typescript-eslint/camelcase */
 
     date_year: {
         category: Category.Age,
-        title: "Year built (best estimate)",
+        title:"Year built (best estimate)",
         example: 1924,
     },
     date_lower : {
