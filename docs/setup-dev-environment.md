@@ -6,8 +6,10 @@ Este documento tiene las instrucciones de configuración de un entorno de desarr
 
 ## Instalación
 ### Actualizar el sistema
-sudo apt-get update -y
+
+```bash
 sudo apt-get upgrade -y
+```
 
 ### Instalar el conjunto de herramientas básicas
 ```bash
