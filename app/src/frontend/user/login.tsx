@@ -6,6 +6,8 @@ import ErrorBox from '../components/error-box';
 import { SpinnerIcon } from '../components/icons';
 import InfoBox from '../components/info-box';
 import SupporterLogos from '../components/supporter-logos';
+import { t } from 'i18next';
+
 
 export const Login: React.FC = () => {
     const {isLoading, login } = useAuth();
@@ -26,23 +28,22 @@ export const Login: React.FC = () => {
     return (
         <article>
             <section className="main-col">
-                <h1 className="h2">Log in</h1>
-                <InfoBox msg="Welcome to Colouring London. You're one of the first people to use the site!  ">
-                    <br/>Please <a href="https://discuss.colouring.london/">discuss
-                    suggestions for improvements</a> and <a
+                <h1 className="h2">Iniciar sesion</h1>
+                <InfoBox msg= {t("Welcome to Colouring London. You're one of the first people to use the site!  ")}>
+                    <br/>Por favor <a href="https://discuss.colouring.london/">debatir sugerencias para mejora</a> e <a
                         href="https://github.com/colouring-london/colouring-london/issues">
-                    report issues or problems</a>.
+                    Informar cuestiones o problemas</a>.
                 </InfoBox>
                 <ErrorBox msg={error} />
                 <form onSubmit={onSubmit}>
-                    <label htmlFor="username">Username*</label>
+                    <label htmlFor="username">Usuario</label>
                     <input name="username" id="username"
                         className="form-control" type="text"
                         value={username} onChange={e => setUsername(e.target.value)}
-                        placeholder="not-your-real-name" required
+                        placeholder="no-su-nombre-real" required
                     />
 
-                    <label htmlFor="password">Password</label>
+                    <label htmlFor="password">Contraseña</label>
                     <input name="password" id="password"
                         className="form-control"
                         type={showPassword ? 'text' : 'password'}
@@ -56,20 +57,20 @@ export const Login: React.FC = () => {
                             checked={showPassword}
                             onChange={e => setShowPassword(e.target.checked)}
                         />
-                        <label htmlFor="show_password" className="form-check-label">Show password?</label>
+                        <label htmlFor="show_password" className="form-check-label">Ver contraseña</label>
                     </div>
 
-                    <Link to="/forgotten-password.html">Forgotten password?</Link>
+                    <Link to="/forgotten-password.html">¿Ha olvidado su contraseña?</Link>
 
                     <div className="buttons-container with-space">
                         <input type="submit" disabled={isLoading} value="Log In" className="btn btn-primary" />
                         {isLoading && <span><SpinnerIcon />Logging in...</span>}
                     </div>
 
-                    Would you like to create an account instead?
+                    ¿Desea crear una cuenta en su lugar?
 
                     <div className="buttons-container with-space">
-                        <Link to="sign-up.html" className="btn btn-outline-dark">Sign Up</Link>
+                        <Link to="sign-up.html" className="btn btn-outline-dark">Registrarse</Link>
                     </div>
                 </form>
             </section>

@@ -4,125 +4,113 @@ import { Link } from 'react-router-dom';
 const PrivacyPolicyPage: React.SFC<any> = () => (
     <article>
         <section className='main-col'>
-            <h1 className='h1'>Privacy Policy & Platform Security</ h1>
-            <h2 className='h2'>Colouring London Privacy Policy with respect to personal data</h2>
+            <h1 className='h1'>Política de privacidad & seguridad de la plataforma</ h1>
+            <h2 className='h2'>Política de privacidad de Colouring London con respecto a los datos personales</h2>
             <p>
-                This privacy policy explains how Colouring London uses the personal data we collect from you when you use our website. Colouring London is a research project initially developed by the Bartlett Centre for Advanced Spatial Analysis (CASA) at UCL, and now run at The Alan Turing Institute. Colouring London is registered for data protection purposes with The Alan Turing Institute data protection office.
+            Esta política de privacidad explica cómo Colouring London utiliza los datos personales que recogemos de usted cuando utiliza nuestro sitio web. Colouring London es un proyecto de investigación desarrollado inicialmente por el Centro Bartlett de Análisis Espacial Avanzado (CASA) de la UCL, y que ahora se lleva a cabo en el instituto Alan Turing. Colouring London está registrado a efectos de protección de datos en la oficina de protección de datos del Instituto Alan Turing.
             </p>
 
-            <h2 className='h2'>What data do we collect?</h2>
+            <h2 className='h2'>¿Qué datos recogemos?</h2>
             <p>
-                Colouring London collects the following personal data:
+            Colouring London recoge los siguientes datos personales:
             </p>
             <p>
-                A username and email address. We recommend you do not use your actual name for your username. We also collect your password, which is stored as a cryptographic hash unique to Colouring London.
+            Un nombre de usuario y una dirección de correo electrónico. Le recomendamos que no utilice su nombre real como nombre de usuario. También recogemos su contraseña, que se almacena como un hash criptográfico único para Colouring London.            </p>
+
+            <h2 className='h2'>¿Cómo recogemos sus datos?</h2>
+            <p>
+            Usted proporciona a Colouring London una cantidad mínima de datos personales cuando se registra en el sitio web y acepta los términos y condiciones, incluida esta política de privacidad.            </p>
+
+            <h2 className='h2'>¿Para qué utilizamos sus datos?</h2>
+            <p>
+            Colouring London utiliza sus datos personales para permitirle el acceso y la contribución al proyecto Colouring London y para proporcionarle una experiencia de usuario personalizada cuando esté conectado. No compartiremos sus datos personales (como su dirección de correo electrónico) con ninguna otra parte ni utilizaremos sus datos personales para ningún otro fin que no sea el proyecto Colouring London.
+            </p>
+            <p>
+            Si solicita un restablecimiento de la contraseña, se enviará un correo electrónico automático con <a href="https://www.mailgun.com/">Mailgun</a>, que procesa el correo electrónico para enviarlo a su dirección de correo electrónico. Mailgun conserva los datos personales que procesa en nombre de Colouring London durante el tiempo necesario para prestar los servicios de correo electrónico. Mailgun conservará la información personal según sea necesario para cumplir con sus obligaciones legales, resolver conflictos y hacer cumplir sus acuerdos.
             </p>
 
-            <h2 className='h2'>How do we collect your data?</h2>
+            <h2 className='h2'>¿Cuál es la base legal para el tratamiento de sus datos?</h2>
             <p>
-                You provide Colouring London with a minimal amount of personal data when you register with the website and accepts the terms and conditions including this privacy policy.
+            Las leyes de protección de datos nos exigen que cumplamos ciertas condiciones antes de que se nos permita utilizar sus datos de la manera descrita en este aviso, lo que incluye tener una "base legal" para el tratamiento. Colouring London, como proyecto de investigación, está tratando sus datos personales en cumplimiento de sus intereses legítimos.
             </p>
 
-            <h2 className='h2'>What purposes do we use your data?</h2>
+            <h2 className='h2'>¿Cómo almacenamos sus datos?</h2>
             <p>
-                Colouring London uses your personal data to enable you to login to access and contribute to the Colouring London project and to provide a personalised user experience when you are logged in. We will not share your personal data (such as your email address) with any other parties or use your personal data for any purposes other than the Colouring London project.
-            </p>
+            Colouring London almacena sus datos en el Instituto Alan Turing de Londres, detrás del Firewall  de la organización, en una base de datos segura que utiliza las prácticas estándar del sector.            </p>
+
+            <h2 className='h2'>¿Cómo utilizamos las cookies?</h2>
             <p>
-                If you request a password reset, an automated email will be sent using <a href="https://www.mailgun.com/">Mailgun</a>, who process the email in order to deliver it to your email address. Mailgun retain personal data they process on behalf of Colouring London for as long as is needed to provide email services. Mailgun will retain the personal information as necessary to comply with their legal obligations, resolve disputes, and enforce their agreements.
+            Colouring London sólo utiliza cookies para mejorar la experiencia de los usuarios del sitio web, por ejemplo, utilizamos cookies para mantener su sesión iniciada. No utilizamos cookies con fines de marketing o publicidad.
             </p>
 
-            <h2 className='h2'>What is the legal basis for processing your data?</h2>
+            <h2 className='h2'>¿Cuáles son sus derechos en materia de protección de datos?</h2>
             <p>
-                Data protection laws require us to meet certain conditions before we are allowed to use your data in the manner described in this notice, including having a ‘legal basis’ for the processing. Colouring London, as a research project, is processing your personal data in pursuance of its legitimate interests.
-            </p>
-
-            <h2 className='h2'>How do we store your data?</h2>
-            <p>
-                Colouring London stores your data at The Alan Turing Institute in London behind the organisation’s firewall in a secure database using industry standard practices.
-            </p>
-
-            <h2 className='h2'>How do we use cookies?</h2>
-            <p>
-                Colouring London only uses cookies to improve the user experience of users of the website, for example we use cookies to keep you signed in. We do not use cookies for marketing or advertising purposes.
-            </p>
-
-            <h2 className='h2'>What are your data protection rights?</h2>
-            <p>
-                Under the General Data Protection Regulation, you have certain individual rights in relation to the personal information we hold about you. For the purposes of research where such individual rights would seriously impair research outcomes, such rights are limited. However, subject to certain conditions, you have the following rights in relation to your personal data:
-            </p>
+            Según el Reglamento General de Protección de Datos, usted tiene ciertos derechos individuales en relación con la información personal que tenemos sobre usted. Para los fines de la investigación, cuando tales derechos individuales podrían perjudicar gravemente los resultados de la misma, tales derechos son limitados. No obstante, bajo ciertas condiciones, usted tiene los siguientes derechos en relación con sus datos personales:            </p>
 
             <ul>
                 <li>
-                    A right to access personal data held by us about you.
+                    Derecho a acceder a los datos personales que tenemos sobre usted.
                 </ li>
 
                 <li>
-                    A right to require us to rectify any inaccurate personal data held by us about you.
+                    Derecho a exigirnos que rectifiquemos cualquier dato personal inexacto que tengamos sobre usted.                </ li>
+
+                <li>
+                    Derecho a exigirnos que borremos los datos personales que tenemos sobre usted. Este derecho solo se aplicará cuando, por ejemplo, ya no necesitemos utilizar los datos personales para lograr el propósito para el que los recogimos.                </ li>
+
+                <li>
+                    Derecho a restringir el tratamiento de los datos personales que tenemos sobre usted. Este derecho solo se aplicará cuando, por ejemplo, usted cuestione la exactitud de los datos personales que poseemos; o cuando tenga derecho a exigirnos que borremos los datos personales, pero prefiera que nuestro tratamiento se restrinja en su lugar; o cuando ya no necesitemos utilizar los datos personales para lograr el objetivo para el que los recogimos, pero los necesitemos para tramitar reclamaciones legales.
                 </ li>
 
                 <li>
-                    A right to require us to erase personal data held by us about you. This right will only apply where, for example, we no longer need to use the personal data to achieve the purpose we collected it for.
+                   Derecho a recibir los datos personales que nos haya facilitado en un formato estructurado, de uso común y legible por máquina. También tiene derecho a exigirnos que transfiramos estos datos personales a otra organización.                </ li>
+
+                <li>
+                    Derecho a oponerse al tratamiento de los datos personales que tenemos sobre usted.
                 </ li>
 
                 <li>
-                    A right to restrict our processing of personal data held by us about you. This right will only apply where, for example, you dispute the accuracy of the personal data held by us; or where you would have the right to require us to erase the personal data but would prefer that our processing is restricted instead; or where we no longer need to use the personal data to achieve the purpose we collected it for, but we require the data for the purposes of dealing with legal claims.
-                </ li>
+                    Derecho a retirar su consentimiento, cuando nos basemos en él para utilizar sus datos personales.                </ li>
 
                 <li>
-                    A right to receive personal data, which you have provided to us, in a structured, commonly used and machine-readable format. You also have the right to require us to transfer this personal data to another organisation.
-                </ li>
-
-                <li>
-                    A right to object to our processing of personal data held by us about you.
-                </ li>
-
-                <li>
-                    A right to withdraw your consent, where we are relying on it to use your personal data.
-                </ li>
-
-                <li>
-                    A right to ask us not to use information about you in a way that allows computers to make decisions about you and ask us to stop.
-                </ li>
+                    Derecho a pedirnos que no utilicemos la información sobre usted de forma que los ordenadores puedan tomar decisiones sobre usted y pedirnos que dejemos de hacerlo.                </ li>
 
             </ul>
 
             <p>
-                It is important to understand that the extent to which these rights apply to research will vary and that in some circumstances your rights may be restricted. If you notify us (using the contact details set out below) that you wish to exercise any of the above rights and it is considered necessary to refuse to comply with any of your individual rights, you will be informed of the decision within one month and you also have the right to complain about our decision to the Information Commissioner’s Office.
+                Es importante que comprenda que el alcance de estos derechos en la investigación variará y que en algunas circunstancias sus derechos pueden verse restringidos. Si nos notifica (a través de los datos de contacto indicados más abajo) que desea ejercer alguno de los derechos mencionados y se considera necesario denegar el cumplimiento de alguno de sus derechos individuales, se le informará de la decisión en el plazo de un mes y también tiene derecho a reclamar nuestra decisión a la Oficina del Comisario de Información.
             </p>
 
             <p>
-                Please also note that we can only comply with a request to exercise your rights during the period for which we hold personal information about you. If that information has been irreversibly anonymised and has become part of the research data set, it will no longer be possible for us to access your personal information.
-            </p>
+                Tenga también en cuenta que sólo podemos atender una solicitud de ejercicio de sus derechos durante el período en que conservamos información personal sobre usted. Si esa información se ha anonimizado de forma irreversible y ha pasado a formar parte del conjunto de datos de la investigación, ya no podremos acceder a su información personal.            </p>
 
-            <h2 className='h2'>Changes to this privacy policy</h2>
+            <h2 className='h2'>Cambios en esta política de privacidad</h2>
             <p>
-                Changes to this privacy policy will be notified via the Colouring London website. This privacy policy was last updated on 4th November 2021. Previous update 2nd October 2019 following change ownership from UCL to The Alan Turing Institute.
-            </p>
+                Los cambios en esta política de privacidad se notificarán a través del sitio web de Colouring London. Esta política de privacidad se actualizó por última vez el 4 de noviembre de 2021. Actualización anterior 2 de octubre de 2019 tras el cambio de propiedad de UCL a The Alan Turing Institute.            </p>
 
-            <h2 className='h2'>Who do I contact with questions?</h2>
+            <h2 className='h2'>¿A quién debo dirigirme si tengo preguntas?</h2>
             <p>
-                If you wish to complain about our use of your personal data or exercise any of your rights, please contact the Turing's Data Protection Officer: <a href="dataprotection@turing.ac.uk">dataprotection@turing.ac.uk</a> or Data Protection Officer, The Alan Turing Institute, 96 Euston Road, London NW1 2DB.
-            </p>
-
-            <p>
-                If we are unable to adequately address any concerns you may have about the way in which we use your data, you have the right to lodge a formal complaint with the UK Information Commissioner's Office. Full details may be accessed on the complaints section of the Information Commissioner's Office website.
-            </p>
-
-            <h2 className='h2'>Further information on privacy and security</h2>
-            <p>
-                Please note when you make a contribution to Colouring London, you are creating a permanent, public record of all data added, removed, or changed by you. The database records the username and ID of the user making the edit, along with the time and date of the change. All of this information is also made publicly available through the website and through bulk downloads of the edit history. User names of contributors providing the highest number of edits are also included in our Leaderboards.
+                Si desea presentar una queja sobre el uso que hacemos de sus datos personales o ejercer alguno de sus derechos, póngase en contacto con el responsable de protección de datos de Turing: <a href="dataprotection@turing.ac.uk">dataprotection@turing.ac.uk</a> o al responsable de protección de datos, The Alan Turing Institute, 96 Euston Road, London NW1 2DB.
             </p>
 
             <p>
-                Please also note that when you contribute to Colouring London, you make your contributions available as open data for anyone to copy, distribute, transmit and adapt in line with the licence, and to use as they see fit. Though we rigorously assess each data type, to help protect building occupiers' privacy and security we welcome any ideas for improvements.
+               Si no somos capaces de resolver adecuadamente cualquier preocupación que pueda tener sobre la forma en que utilizamos sus datos, tiene derecho a presentar una queja formal ante la Oficina del Comisionado de Información del Reino Unido. Puede consultar todos los detalles en la sección de reclamaciones del sitio web de la Oficina del Comisario de Información.            </p>
+
+            <h2 className='h2'>Más información sobre privacidad y seguridad</h2>
+            <p>
+                Tenga en cuenta que cuando hace una contribución a Colouring London, está creando un registro permanente y público de todos los datos añadidos, eliminados o modificados por usted. La base de datos registra el nombre de usuario y la identificación del usuario que realiza la edición, junto con la hora y la fecha del cambio. Toda esta información también se pone a disposición del público a través del sitio web y mediante descargas masivas del historial de ediciones. Los nombres de usuario de los contribuyentes que proporcionan el mayor número de ediciones también se incluyen en nuestras tablas de clasificación.
             </p>
 
             <p>
-                Progress on Colouring London features specifically designed to address ethical issues, including these relating to security and privacy, can be tracked and commented on using our GitHub site, at <a href="https://github.com/colouring-london/colouring-london/issues/687">#687</a>. If you have any immediate concerns regarding security or privacy please contact Turing's data protection team at <a href="dataprotection@turing.ac.uk">dataprotection@turing.ac.uk</a>.
+                Tenga también en cuenta que cuando contribuye a Colouring London, pone sus aportaciones a disposición de cualquiera como datos abiertos para que los copien, distribuyan, transmitan y adapten de acuerdo con la licencia, y para que los utilicen como consideren oportuno. Aunque evaluamos rigurosamente cada tipo de datos, para ayudar a proteger la privacidad y la seguridad de los ocupantes de los edificios, agradecemos cualquier idea de mejora.
+            </p>
+
+            <p>
+            Los avances en las funciones de Colouring London diseñadas específicamente para abordar cuestiones éticas, incluidas las relacionadas con la seguridad y la privacidad, pueden seguirse y comentarse en nuestro sitio GitHub, en <a href="https://github.com/osgeolabUD-org/colouring-colombia/issues">Problemas</a>. Si tiene alguna duda inmediata sobre la seguridad o la privacidad, póngase en contacto con el equipo de protección de datos de Turing en <a href="dataprotection@turing.ac.uk">dataprotection@turing.ac.uk</a>.
             </p>
 
             <div className="buttons-container">
-                <Link to="sign-up.html" className="btn btn-outline-dark">Back to sign up</Link>
+                <Link to="sign-up.html" className="btn btn-outline-dark">Volver al registro</Link>
             </div>
         </section>
     </article>
