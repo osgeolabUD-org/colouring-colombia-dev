@@ -169,7 +169,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             step={0.00001}
             min={-90}
             max={90}
-            placeholder="Latitude, e.g. 51.5467"
+            placeholder={t("Latitude, e.g. 51.5467")}
             onChange={props.onChange}
             />
         <Verification
@@ -189,7 +189,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             step={0.00001}
             min={-180}
             max={180}
-            placeholder="Longitude, e.g. -0.0586"
+            placeholder= {t("Longitude, e.g. -0.0586")}
             onChange={props.onChange}
             />
         <Verification

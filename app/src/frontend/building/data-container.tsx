@@ -312,7 +312,7 @@ const withCopyEdit: (wc: React.ComponentType<CategoryViewProps>) => DataContaine
                             className="icon-button help"
                             title="Find out more"
                             href={this.props.help}>
-                            Informacion
+                            Información
                         </a>
                     : null
                 }

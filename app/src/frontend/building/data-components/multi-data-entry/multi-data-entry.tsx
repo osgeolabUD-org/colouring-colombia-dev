@@ -6,6 +6,7 @@ import { BaseDataEntryProps } from '../data-entry';
 import { DataEntryInput, TextDataEntryInputProps } from '../data-entry-input';
 import { DataTitleCopyable } from '../data-title';
 import { CloseIcon, SaveIcon } from '../../../components/icons';
+import { t } from 'i18next';
 
 interface MultiDataEntryProps extends BaseDataEntryProps, TextDataEntryInputProps {
     value: string[];
@@ -72,7 +73,7 @@ export const MultiDataEntry: React.FC<MultiDataEntryProps> = ({
             {
                 values.length === 0 && !isEditing &&
                 <div className="input-group">
-                    <input className="form-control no-entries" type="text" value="No entries" disabled={true} />
+                    <input className="form-control no-entries" type="text" value= "Sin entradas" disabled={true} />
                 </div>
             }
             <ul className="data-entry-list">

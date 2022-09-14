@@ -20,10 +20,10 @@ import { t } from 'i18next';
 const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
     <Fragment>
         <InfoBox type='warning'>
-            This section is under development as part of the project CLPV Tool. For more details and progress <a href="https://github.com/colouring-cities/manual/wiki/G2.-Data-capture-(2).-Live-streaming-and-automated-methods">read here</a>.
+            {t("This section is under development as part of the project CLPV Tool. For more details and progress") }<a href="https://github.com/colouring-cities/manual/wiki/G2.-Data-capture-(2).-Live-streaming-and-automated-methods"> lea aquí</a>.
         </InfoBox>
         <DataEntry
-            title={dataFields.planning_portal_link.title}
+            title={t(dataFields.planning_portal_link.title)}
             slug="planning_portal_link"
             value={props.building.planning_portal_link}
             mode={props.mode}

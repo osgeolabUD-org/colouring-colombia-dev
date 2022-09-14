@@ -30,9 +30,9 @@ const CheckboxDataEntry: React.FunctionComponent<CheckboxDataEntryProps> = (prop
                         />
                     {
                         props.value?
-                            <span><strong>Yes</strong>/No</span>
+                            <span><strong>Si</strong>/No</span>
                         :
-                            <span>Yes/<strong>No</strong></span>
+                            <span>Si/<strong>No</strong></span>
                     }
                 </label>
             </div>
