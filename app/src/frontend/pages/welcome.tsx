@@ -34,8 +34,12 @@ const Welcome = () => {
                 <img src="images/supporter-logos.png" alt="Colouring London collaborating organisations: The Bartlett UCL, Ordnance Survey, Historic England, Greater London Authority" />
             </div>
             <div className="image-row">
-                <img src="images/logo-loughborough.png" alt="Colouring London collaborating organisations: Loughborough University" />
+               
+                <img className="l-logo" src="images/logo-loughborough.png" alt="Colouring London collaborating organisations: Loughborough University" />
+                <img className="ud-logo" src="images/logo-ud.png" alt="Colouring London collaborating organisations: Uiversidad Distrital Francisco José de Caldas" />
+
             </div>
+
         </div>
     )
 };
