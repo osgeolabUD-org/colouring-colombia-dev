@@ -136,6 +136,15 @@
         "code",
         "projectManagement"
       ]
+    },
+    {
+      "login": "Edi-UD",
+      "name": "Edi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109552292?v=4",
+      "profile": "https://latitud.udistrital.edu.co/",
+      "contributions": [
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
