@@ -126,52 +126,6 @@
         "code",
         "doc"
       ]
-    },
-    {
-      "login": "paulocoronado",
-      "name": "Paulo César Coronado",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1460156?v=4",
-      "profile": "http://paulocoronado.blogspot.com.co/",
-      "contributions": [
-        "code",
-        "projectManagement"
-      ]
-    },
-    {
-      "login": "EblissYisse",
-      "name": "Ebliss Yissela",
-      "avatar_url": "https://avatars.githubusercontent.com/u/105095088?v=4",
-      "profile": "https://github.com/EblissYisse",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "JuanDDB",
-      "name": "JuanDDB",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54457007?v=4",
-      "profile": "https://github.com/JuanDDB",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "Edi-UD",
-      "name": "Edi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109552292?v=4",
-      "profile": "https://latitud.udistrital.edu.co/",
-      "contributions": [
-        "projectManagement"
-      ]
-    },
-    {
-      "login": "mfbenitezp",
-      "name": "Fernando Benitez-Paez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4097295?v=4",
-      "profile": "https://fernandobenitez.co",
-      "contributions": [
-        "projectManagement"
-      ]
     }
   ],
   "contributorsPerLine": 7,
