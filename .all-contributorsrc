@@ -14,6 +14,16 @@
       "contributions": [
         "projectManagement"
       ]
+    },
+    {
+      "login": "paulocoronado",
+      "name": "Paulo César Coronado",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1460156?v=4",
+      "profile": "http://paulocoronado.blogspot.com.co/",
+      "contributions": [
+        "code",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
