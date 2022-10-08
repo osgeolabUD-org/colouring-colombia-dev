@@ -5,26 +5,26 @@ const ContactPage = () => (
     <article>
         <section className="main-col">
             <h1 className="h2">
-                Contact
+                Contacto
             </h1>
-            <p> Colouring London has been designed as a sustainable, low-cost model for knowledge exchange/open data platforms able to be reproduced by other towns and cities using our open platform code.</p>
+            <p> Colouring Bogotá ha sido diseñado como un modelo sostenible y de bajo coste para el intercambio de conocimientos/plataformas de datos abiertos, capaz de ser reproducido por otras ciudades utilizando el código de nuestra plataforma abierta.</p>
 
-            <p> It is being developed by a small, dedicated team at The Alan Turing Institute. We are unable to answer individual queries but welcome constructive comments on how to improve the site, and on other types of data and new features you might like to see.</p>
+            <p> Está siendo desarrollado por un pequeño y dedicado equipo de la Universidad Distrital Francisco José de Caldas. No podemos responder a consultas individuales, pero agradecemos los comentarios constructivos sobre cómo mejorar el sitio, y sobre otros tipos de datos y nuevas características que le gustaría ver.</p>
 
-            <p> You can send us comments or ask questions on our discussion threads at <a href="https://discuss.colouring.london/">https://discuss.colouring.london/</a>.</p>
+            <p> Puedes enviarnos comentarios o hacer preguntas en nuestros hilos de discusión en <a href="https://discuss.colouring.london/">https://discuss.colouring.london/</a>.</p>
 
-            <p> To view our technical site and platform code please visit Github at: <a href="https://github.com/colouring-london/colouring-london">https://github.com/colouring-london/colouring-london</a>.</p>
+            <p> Para ver nuestro sitio técnico y el código de la plataforma, visite Github en: <a href="https://github.com/osgeolabUD-org/colouring-colombia">Colouring Colombia</a>.</p>
 
-            <p>For press enquiries please contact <a href="https://www.turing.ac.uk/contact-us/press-office">The Alan Turing Institute press office</a></p>
+            <p>Para consultas de prensa, póngase en contacto con <a href="https://www.turing.ac.uk/contact-us/press-office">The Alan Turing Institute press office</a></p>
 
             <p>
-            If you capture images from the maps on Colouring London, please credit our
-            contributors (who collected the data) and Ordnance Survey
-            (who provided the basemaps and building geometries) as follows:
+            Si captura imágenes de los mapas de Colorear Bogotá, por favor acredite a nuestros
+            colaboradores (que recogieron los datos) y a Ordnance Survey
+            (que proporcionó los mapas base y las geometrías de los edificios) como sigue:
             </p>
             <p>
             <pre><code>
-            Colouring London https://colouring.london Building attribute data is © Colouring London contributors. Maps contain OS data © Crown copyright: OS Maps baselayers and building outlines.
+            Colouring London https://colouring.london Los datos de atributos de los edificios son © Colouring London contributors. Los mapas contienen datos de OS © Crown copyright: Capas base de OS Maps y contornos de edificios.
             </code></pre>
             </p>
             <hr />

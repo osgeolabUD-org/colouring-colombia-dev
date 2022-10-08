@@ -3,13 +3,11 @@ import React from 'react';
 const DataAccuracyPage = () => (
     <article>
         <section className="main-col">
-            <h1 className="h2">Data Accuracy Agreement</h1>
+            <h1 className="h2">Acuerdo sobre la exactitud de los datos</h1>
             <p>
-            Colouring London data are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, accuracy, fitness for a particular purpose and non-infringement. In no event shall the Alan Turing Institute be liable for any reliance that you place on or how you use the data nor any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the data or the use or other dealings in the data.
-            </p>
+            Los datos de Colouring London se proporcionan "tal cual", sin garantía de ningún tipo, expresa o implícita, incluidas, entre otras, las garantías de comerciabilidad, exactitud, idoneidad para un fin determinado y no infracción. En ningún caso la universidad Distrital Francisco José de Caldas será responsable de la confianza que usted deposite en los datos o de la forma en que los utilice, ni de las reclamaciones, daños y perjuicios u otras responsabilidades, ya sean contractuales, extracontractuales o de otro tipo, que se deriven de los datos o de su uso o de otras operaciones con ellos.            </p>
             <p>
-            Colouring London data are crowdsourced from multiple sources and may contain errors. Though we cannot comment on data accuracy, we try to include as many features as possible to help users assess their reliability and suitability for specific types of use (be this a school project or scientific paper). As information on sources is very important, contributors are asked to add these, and to verify data, wherever possible.
-            </p>
+            Los datos de Colouring London proceden de múltiples fuentes y pueden contener errores. Aunque no podemos opinar sobre la exactitud de los datos, tratamos de incluir el mayor número posible de características para ayudar a los usuarios a evaluar su fiabilidad y adecuación a determinados tipos de uso (ya sea un proyecto escolar o un artículo científico). Como la información sobre las fuentes es muy importante, se pide a los colaboradores que la añadan y que verifiquen los datos siempre que sea posible.            </p>
         </section>
     </article>
 );

@@ -3,9 +3,9 @@ import React from 'react';
 const OrdnanceSurveyUprnPage = () => (
 <article className="main-col">
     <section>
-        <h1 className="h2">Ordnance Survey - UPRN Usage Terms</h1>
+        <h1 className="h2">Estudio de Ordenación - Términos de uso de la UPRN</h1>
         <p>
-            You may use the UPRN for personal, non-commercial use or for the internal administration and operation of your business, which does not permit using the UPRN  for the purpose of creating or developing any product or service intended for sub-licensing, distribution or sale to third parties (notwithstanding that the UPRN  themselves or any associated attribution or geometry that has been created with benefit of UPRN may not actually be supplied as part of such product or service). Therefore if you create any data which has benefited from, relied on or made use of the UPRN you are not permitted to sub-license, distribute or sell such data to third parties under the above terms.
+        Usted puede utilizar la UPRN para uso personal, no comercial o para la administración y operación interna de su negocio, lo que no permite utilizar la UPRN con el propósito de crear o desarrollar cualquier producto o servicio destinado a la sublicencia, distribución o venta a terceros (sin perjuicio de que la propia UPRN o cualquier atribución o geometría asociada que haya sido creada con beneficio de la UPRN pueda no ser suministrada realmente como parte de dicho producto o servicio). Por lo tanto, si usted crea cualquier dato que se haya beneficiado de la UPRN, que se haya basado en ella o que haya hecho uso de ella, no está autorizado a sublicenciar, distribuir o vender dichos datos a terceros en virtud de los términos anteriores.
         </p>
     </section>
 </article>

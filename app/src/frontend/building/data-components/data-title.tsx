@@ -43,7 +43,7 @@ const DataTitleCopyable: React.FunctionComponent<DataTitleCopyableProps> = (prop
             <div className="data-title-actions icon-buttons">
                 { (props.copy && props.copy.copying && props.slug && !props.disabled)?
                         <label className="icon-button copy">
-                            Copy
+                            Copiar
                             <input
                                 type="checkbox"
                                 checked={props.copy.copyingKey(props.slug)}

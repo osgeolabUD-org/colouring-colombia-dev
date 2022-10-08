@@ -7,7 +7,7 @@ import NumericDataEntry from '../data-components/numeric-data-entry';
 import withCopyEdit from '../data-container';
 
 import { CategoryViewProps } from './category-view-props';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 import { t } from 'i18next';
 
 /**
@@ -26,51 +26,51 @@ const StreetscapeView: React.FunctionComponent<CategoryViewProps> = (props) => (
             <li>{t('Building shading')}</li>
         </ul>
         <NumericDataEntry
-            title={dataFields.size_plot_area_total.title}
+            title={t(dataFields.size_plot_area_total.title)}
             slug="size_plot_area_total"
             mode='view'
             step={0.1}
             min={0}
         />
         <NumericDataEntry
-            title={dataFields.size_far_ratio.title}
+            title={t(dataFields.size_far_ratio.title)}
             slug="size_far_ratio"
             mode='view'
             step={0.1}
             min={0}
         />
         <DataEntry
-            title="Plot dimensions"
+            title={t("Plot dimensions")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Plot geometry link"
+            title={t("Plot geometry link")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Land ownership parcel link"
+            title={t("Land ownership parcel link")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Land ownership type"
+            title={t("Land ownership type")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Street width"
+            title={t("Street width")}
             slug=""
             value=""
             mode='view'
         />
         <DataEntry
-            title="Street network geometry link"
+            title={t("Street network geometry link")}
             slug=""
             value=""
             mode='view'

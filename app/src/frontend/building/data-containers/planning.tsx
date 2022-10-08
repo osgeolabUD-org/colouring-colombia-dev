@@ -9,8 +9,10 @@ import { DataEntryGroup } from '../data-components/data-entry-group';
 import SelectDataEntry from '../data-components/select-data-entry';
 import Verification from '../data-components/verification';
 import withCopyEdit from '../data-container';
+import { useTranslation } from 'react-i18next';
 
 import { CategoryViewProps } from './category-view-props';
+import { t } from 'i18next';
 
 /**
 * Planning view/edit section
@@ -37,15 +39,15 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
             verified_count={props.building.verified.planning_portal_link}
             />
 
-        <DataEntryGroup name="Planning Status">
+        <DataEntryGroup name={t("Planning Status")}>
             <CheckboxDataEntry
-                title="Is a planning application live for this site?"
+                title={t("Is a planning application live for this site?")}
                 slug="planning_live_application"
                 value={null}
                 disabled={false}
                 />
             <CheckboxDataEntry
-                title={dataFields.planning_demolition_proposed.title}
+                title={t(dataFields.planning_demolition_proposed.title)}
                 slug="planning_demolition_proposed"
                 value={props.building.planning_demolition_proposed}
                 mode={props.mode}
@@ -54,18 +56,18 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 disabled={false}
                 />
             <CheckboxDataEntry
-                title="Has this application recently been been approved/refused?"
+                title={t("Has this application recently been been approved/refused?")}
                 slug="planning_recent_outcome"
                 value={null}
                 disabled={false}
                 />
             <CheckboxDataEntry
-                title="Has the work been carried out?"
+                title={t("Has the work been carried out?")}
                 slug="planning_carried_out"
                 value={null}
                 disabled={false}
                 />
-            <InfoBox msg="For historical planning applications see Planning Portal link" />
+            <InfoBox msg={t("For historical planning applications see Planning Portal link")} />
             {/*
                 Move to Demolition:
 
@@ -89,9 +91,9 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
             */}
         </DataEntryGroup>
-        <DataEntryGroup name="Designation and Protection" collapsed={false} >
+        <DataEntryGroup name={t("Designation and Protection")} collapsed={false} >
             <CheckboxDataEntry
-                title={dataFields.planning_in_conservation_area.title}
+                title={t(dataFields.planning_in_conservation_area.title)}
                 slug="planning_in_conservation_area"
                 value={props.building.planning_in_conservation_area}
                 mode={props.mode}
@@ -107,7 +109,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_in_conservation_area}
                 />
             <DataEntry
-                title={dataFields.planning_conservation_area_name.title}
+                title={t(dataFields.planning_conservation_area_name.title)}
                 slug="planning_conservation_area_name"
                 value={props.building.planning_conservation_area_name}
                 mode={props.mode}
@@ -124,7 +126,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <CheckboxDataEntry
-                title={dataFields.planning_in_list.title}
+                title={t(dataFields.planning_in_list.title)}
                 slug="planning_in_list"
                 value={props.building.planning_in_list}
                 mode={props.mode}
@@ -141,7 +143,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_in_list}
                 />
             <MultiDataEntry
-                title={dataFields.planning_nhle_link.title}
+                title={t(dataFields.planning_nhle_link.title)}
                 slug="planning_nhle_link"
                 value={props.building.planning_nhle_link}
                 mode={props.mode}
@@ -161,7 +163,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_nhle_link}
                 />
             <DataEntry
-                title={dataFields.planning_list_id.title}
+                title={t(dataFields.planning_list_id.title)}
                 slug="planning_list_id"
                 value={props.building.planning_list_id}
                 mode={props.mode}
@@ -178,7 +180,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_list_id}
                 />
             <SelectDataEntry
-                title={dataFields.planning_list_cat.title}
+                title={t(dataFields.planning_list_cat.title)}
                 slug="planning_list_cat"
                 value={props.building.planning_list_cat}
                 mode={props.mode}
@@ -202,7 +204,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_list_cat}
                 />
             <SelectDataEntry
-                title={dataFields.planning_list_grade.title}
+                title={t(dataFields.planning_list_grade.title)}
                 slug="planning_list_grade"
                 value={props.building.planning_list_grade}
                 mode={props.mode}
@@ -225,7 +227,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_list_grade}
                 />
             <DataEntry
-                title={dataFields.planning_heritage_at_risk_id.title}
+                title={t(dataFields.planning_heritage_at_risk_id.title)}
                 slug="planning_heritage_at_risk_id"
                 value={props.building.planning_heritage_at_risk_id}
                 mode={props.mode}
@@ -242,7 +244,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <DataEntry
-                title={dataFields.planning_world_list_id.title}
+                title={t(dataFields.planning_world_list_id.title)}
                 slug="planning_world_list_id"
                 value={props.building.planning_world_list_id}
                 mode={props.mode}
@@ -259,7 +261,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <CheckboxDataEntry
-                title={dataFields.planning_in_glher.title}
+                title={t(dataFields.planning_in_glher.title)}
                 slug="planning_in_glher"
                 value={props.building.planning_in_glher}
                 mode={props.mode}
@@ -275,7 +277,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_in_glher}
                 />
             <DataEntry
-                title={dataFields.planning_glher_url.title}
+                title={t(dataFields.planning_glher_url.title)}
                 slug="planning_glher_url"
                 value={props.building.planning_glher_url}
                 mode={props.mode}
@@ -292,7 +294,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <CheckboxDataEntry
-                title={dataFields.planning_in_apa.title}
+                title={t(dataFields.planning_in_apa.title)}
                 slug="planning_in_apa"
                 value={props.building.planning_in_apa}
                 mode={props.mode}
@@ -308,7 +310,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_in_apa}
                 />
             <DataEntry
-                title={dataFields.planning_apa_name.title}
+                title={t(dataFields.planning_apa_name.title)}
                 slug="planning_apa_name"
                 value={props.building.planning_apa_name}
                 mode={props.mode}
@@ -324,7 +326,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_apa_name}
                 />
             <DataEntry
-                title={dataFields.planning_apa_tier.title}
+                title={t(dataFields.planning_apa_tier.title)}
                 slug="planning_apa_tier"
                 value={props.building.planning_apa_tier}
                 mode={props.mode}
@@ -341,7 +343,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <CheckboxDataEntry
-                title={dataFields.planning_in_local_list.title}
+                title={t(dataFields.planning_in_local_list.title)}
                 slug="planning_in_local_list"
                 value={props.building.planning_in_local_list}
                 mode={props.mode}
@@ -357,7 +359,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_in_local_list}
                 />
             <DataEntry
-                title={dataFields.planning_local_list_url.title}
+                title={t(dataFields.planning_local_list_url.title)}
                 slug="planning_local_list_url"
                 value={props.building.planning_local_list_url}
                 mode={props.mode}
@@ -374,7 +376,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 />
 
             <CheckboxDataEntry
-                title={dataFields.planning_in_historic_area_assessment.title}
+                title={t(dataFields.planning_in_historic_area_assessment.title)}
                 slug="planning_in_historic_area_assessment"
                 value={props.building.planning_in_historic_area_assessment}
                 mode={props.mode}
@@ -390,7 +392,7 @@ const PlanningView: React.FunctionComponent<CategoryViewProps> = (props) => (
                 verified_count={props.building.verified.planning_in_historic_area_assessment}
                 />
             <DataEntry
-                title={dataFields.planning_historic_area_assessment_url.title}
+                title={t(dataFields.planning_historic_area_assessment_url.title)}
                 slug="planning_historic_area_assessment_url"
                 value={props.building.planning_historic_area_assessment_url}
                 mode={props.mode}

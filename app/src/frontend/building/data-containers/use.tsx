@@ -10,6 +10,8 @@ import withCopyEdit from '../data-container';
 
 import { CategoryViewProps } from './category-view-props';
 import Verification from '../data-components/verification';
+import {useTranslation} from 'react-i18next';
+import { t } from 'i18next';
 
 /**
  * Use view/edit section
@@ -21,9 +23,9 @@ const UseView: React.FunctionComponent<CategoryViewProps> = (props) => {
        ){
       return (
           <Fragment>
-              <InfoBox msg="93% of properties in UK are dwellings so we have set this as the default colour. Can you help us colour-in all non-residential and mixed use buildings, and verify residential buildings too?"></InfoBox>
+              <InfoBox msg={t("93% of properties in UK are dwellings so we have set this as the default colour. Can you help us colour-in all non-residential and mixed use buildings, and verify residential buildings too?")}></InfoBox>
               <MultiDataEntry
-                  title={dataFields.current_landuse_group.title}
+                  title={t(dataFields.current_landuse_group.title)}
                   slug="current_landuse_group"
                   value={props.building.current_landuse_group}
                   mode={props.mode}
@@ -49,7 +51,7 @@ const UseView: React.FunctionComponent<CategoryViewProps> = (props) => {
                   <InfoBox msg="Land use order, shown below, is automatically derived from the land use groups"></InfoBox>
               }
               <DataEntry
-                  title={dataFields.current_landuse_order.title}
+                  title={t(dataFields.current_landuse_order.title)}
                   tooltip={dataFields.current_landuse_order.tooltip}
                   slug="current_landuse_order"
                   value={props.building.current_landuse_order}
@@ -59,7 +61,7 @@ const UseView: React.FunctionComponent<CategoryViewProps> = (props) => {
                   onChange={props.onChange}
               />
               <SelectDataEntry
-                  title={dataFields.current_landuse_source.title}
+                  title={t(dataFields.current_landuse_source.title)}
                   slug="current_landuse_source"
                   value={props.building.current_landuse_source}
                   mode={props.mode}

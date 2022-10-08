@@ -10,13 +10,15 @@ import withCopyEdit from '../data-container';
 import { PatternDataEntry } from '../data-components/pattern-data-entry';
 
 import { CategoryViewProps } from './category-view-props';
+import {useTranslation} from 'react-i18next';
+import { t } from 'i18next';
 
 const locationNumberPattern = "[1-9]\\d*[a-z]?(-([1-9]\\d*))?"; ///[1-9]\d*[a-z]?(-([1-9]\d*))?/;
 
 const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
     <Fragment>
         <DataEntry
-            title={dataFields.location_name.title}
+            title={t(dataFields.location_name.title)}
             slug="location_name"
             value={props.building.location_name}
             mode={props.mode}
@@ -36,7 +38,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             />
 
         <PatternDataEntry
-            title={dataFields.location_number.title}
+            title={t(dataFields.location_number.title)}
             slug="location_number"
             value={props.building.location_number}
             pattern={locationNumberPattern}
@@ -55,7 +57,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             />
 
         <DataEntry
-            title={dataFields.location_street.title}
+            title={t(dataFields.location_street.title)}
             slug="location_street"
             value={props.building.location_street}
             mode={props.mode}
@@ -73,7 +75,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             />
 
         <DataEntry
-            title={dataFields.location_line_two.title}
+            title={t(dataFields.location_line_two.title)}
             slug="location_line_two"
             value={props.building.location_line_two}
             mode={props.mode}
@@ -90,7 +92,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             verified_count={props.building.verified.location_line_two}
             />
         <DataEntry
-            title={dataFields.location_town.title}
+            title={t(dataFields.location_town.title)}
             slug="location_town"
             value={props.building.location_town}
             mode={props.mode}
@@ -107,7 +109,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             verified_count={props.building.verified.location_town}
             />
         <DataEntry
-            title={dataFields.location_postcode.title}
+            title={t(dataFields.location_postcode.title)}
             slug="location_postcode"
             value={props.building.location_postcode}
             mode={props.mode}
@@ -159,7 +161,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             verified_count={props.building.verified.ref_osm_id}
             />
         <NumericDataEntry
-            title={dataFields.location_latitude.title}
+            title={t(dataFields.location_latitude.title)}
             slug="location_latitude"
             value={props.building.location_latitude}
             mode={props.mode}
@@ -179,7 +181,7 @@ const LocationView: React.FunctionComponent<CategoryViewProps> = (props) => (
             verified_count={props.building.verified.location_latitude}
             />
         <NumericDataEntry
-            title={dataFields.location_longitude.title}
+            title={t(dataFields.location_longitude.title)}
             slug="location_longitude"
             value={props.building.location_longitude}
             mode={props.mode}

@@ -11,7 +11,7 @@ const ThemeSwitcher: React.FC<ThemeSwitcherProps> = (props) => (
     <form className={`theme-switcher ${props.currentTheme}`} onSubmit={props.onSubmit}>
         <button className="btn btn-outline btn-outline-dark"
             type="submit">
-            Switch theme ({(props.currentTheme === 'light')? 'Light' : 'Night'})
+            Cambiar tema ({(props.currentTheme === 'light')? 'Claro' : 'Oscuro'})
         </button>
     </form>
 );

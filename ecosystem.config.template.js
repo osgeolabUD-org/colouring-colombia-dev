@@ -6,7 +6,7 @@
 module.exports = {
     apps: [
         {
-            name: "colouringlondon",
+            name: "colouringBogota",
             script: "./app/build/server.js",
             instances: 2,
             env: {

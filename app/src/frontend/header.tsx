@@ -6,7 +6,8 @@ import './header.css';
 import { Logo } from './components/logo';
 import { WithSeparator } from './components/with-separator';
 import { useAuth } from './auth-context';
-
+import {useTranslation} from 'react-i18next';
+import { t } from 'i18next';
 
 interface MenuLink {
     to: string;
@@ -22,114 +23,115 @@ function getCurrentMenuLinks(username: string): MenuLink[][] {
         [
             {
                 to: "/view/categories",
-                text: "View Maps"
+                text: t("View Maps")
             },
             {
                 to: "/edit/categories",
-                text: "Edit Maps"
+                text: t("Edit Maps")
             },
             {
                 to: "/data-extracts.html",
-                text: "Download data"
+                text: t("Download data")
             },
             {
-                to: "https://github.com/colouring-london/colouring-london",
-                text: "Access open code",
+                to: "https://github.com/osgeolabUD-org/colouring-colombia",
+                text: t("Access open code"),
+
                 external: true
             },
             {
                 to: "/showcase.html",
-                text: "View Data Showcase",
+                text: t("View Data Showcase"),
                 disabled: true,
-                note: "Coming soon"
+                note: t("Coming soon")
             },
         ],
         [
             {
                 to: "https://pages.colouring.london",
-                text: "About",
+                text: t("About"),
                 external: true
             },
             {
                 to: "https://pages.colouring.london/buildingcategories",
-                text: "Data Categories",
+                text: t("Data Categories"),
                 external: true
             },
             {
                 to: "https://pages.colouring.london/whoisinvolved",
-                text: "Who's Involved?",
+                text: t("Who's Involved?"),
                 external: true
             },
             {
                 to: "https://pages.colouring.london/data-ethics",
-                text: "Data Ethics",
+                text: t("Data Ethics"),
                 external: true
             },
             {
                 to: "https://pages.colouring.london/colouring-cities",
-                text: "Colouring Cities Research Programme",
+                text: t("Colouring Cities Research Programme"),
                 external: true
             },
         ],
         [
             {
                 to: "/leaderboard.html",
-                text: "Top Contributors"
+                text: t("Top Contributors")
             },
             {
                 to: "https://discuss.colouring.london",
-                text: "Discussion Forum",
+                text: t("Discussion Forum"),
                 external: true
             },
             {
                 to: "https://discuss.colouring.london/c/blog/9",
-                text: "Blog",
+                text: t("Blog"),
                 external: true
             },
         ],
         [
             {
                 to: "/privacy-policy.html",
-                text: "Privacy Policy"
+                text: t("Privacy Policy")
             },
             {
                 to: "/contributor-agreement.html",
-                text: "Contributor Agreement"
+                text: t("Contributor Agreement")
             },
             {
                 to: "/code-of-conduct.html",
-                text: "Code of Conduct"
+                text: t("Code of Conduct")
             },
             {
                 to: "/data-accuracy.html",
-                text: "Data Accuracy Agreement"
+                text: t("Data Accuracy Agreement")
             },
             {
                 to: "/ordnance-survey-uprn.html",
-                text: "Ordnance Survey terms of UPRN usage"
+                text: t("Ordnance Survey terms of UPRN usage")
             },
         ],
         [
             {
                 to: "/contact.html",
-                text: "Contact"
+                text: t("Contact")
             },
             ...(
                 username != undefined ?
                     [
                         {
                             to: "/my-account.html",
-                            text: `Account (${username})`
+                            text: `Cuenta (${username})`
                         }
                     ] :
                     [
                         {
                             to: "/login.html",
-                            text: "Log in"
+                            text: t("Log in")
                         },
                         {
                             to: "/sign-up.html",
-                            text: "Sign up"
+                            text: t("Sign up")
                         }
                     ]
             )
@@ -197,7 +199,7 @@ export const Header: React.FC<{
             </NavLink>
             <button className="navbar-toggler" type="button"
                 onClick={toggleCollapse} aria-expanded={!collapseMenu} aria-label="Toggle navigation">
-                Menu&nbsp;
+                Menú&nbsp;
                 {
                     collapseMenu ?
                         <span className="navbar-toggler-icon"></span>
