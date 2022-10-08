@@ -72,8 +72,11 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
       <td align="center"><a href="https://mapsaregreat.com/"><img src="https://avatars.githubusercontent.com/u/899988?v=4?s=100" width="100px;" alt="Mateusz Konieczny"/><br /><sub><b>Mateusz Konieczny</b></sub></a><br /><a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=matkoniecz" title="Code">💻</a> <a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=matkoniecz" title="Documentation">📖</a></td>
       <td align="center"><a href="http://paulocoronado.blogspot.com.co/"><img src="https://avatars.githubusercontent.com/u/1460156?v=4?s=100" width="100px;" alt="Paulo César Coronado"/><br /><sub><b>Paulo César Coronado</b></sub></a><br /><a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=paulocoronado" title="Code">💻</a> <a href="#projectManagement-paulocoronado" title="Project Management">📆</a></td>
       <td align="center"><a href="https://github.com/EblissYisse"><img src="https://avatars.githubusercontent.com/u/105095088?v=4?s=100" width="100px;" alt="Ebliss Yissela"/><br /><sub><b>Ebliss Yissela</b></sub></a><br /><a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=EblissYisse" title="Code">💻</a></td>
+    </tr>
+    <tr>
       <td align="center"><a href="https://github.com/JuanDDB"><img src="https://avatars.githubusercontent.com/u/54457007?v=4?s=100" width="100px;" alt="JuanDDB"/><br /><sub><b>JuanDDB</b></sub></a><br /><a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=JuanDDB" title="Code">💻</a></td>
       <td align="center"><a href="https://latitud.udistrital.edu.co/"><img src="https://avatars.githubusercontent.com/u/109552292?v=4?s=100" width="100px;" alt="Edi"/><br /><sub><b>Edi</b></sub></a><br /><a href="#projectManagement-Edi-UD" title="Project Management">📆</a></td>
+      <td align="center"><a href="https://fernandobenitez.co"><img src="https://avatars.githubusercontent.com/u/4097295?v=4?s=100" width="100px;" alt="Fernando Benitez-Paez"/><br /><sub><b>Fernando Benitez-Paez</b></sub></a><br /><a href="#projectManagement-mfbenitezp" title="Project Management">📆</a></td>
     </tr>
   </tbody>
 </table>
