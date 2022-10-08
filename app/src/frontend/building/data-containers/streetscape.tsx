@@ -15,7 +15,8 @@ import { t } from 'i18next';
 */
 const StreetscapeView: React.FunctionComponent<CategoryViewProps> = (props) => (
     <Fragment>
-        <InfoBox msg={t("This is what we're planning to collect on the building's context")} />
+        <InfoBox msg=
+        {t("This is what we're planning to collect on the building's context")} />
         <ul className="data-list">
             <li>{t('Gardens')}</li>
             <li>{t('Trees')}</li>

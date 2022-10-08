@@ -1,4 +1,3 @@
-
 import { Category } from './categories-config';
 import {useTranslation} from 'react-i18next';
 import { t } from 'i18next';
@@ -68,12 +67,13 @@ export const buildingUserFields = {
         perUser: true,
         category: Category.Community,
         title: "Do you like this building and think it contributes to the city?",
+
         example: true,
     },
     community_type_worth_keeping: {
         perUser: true,
         category: Category.Community,
-        title: "Do you think this **type** of building is generally worth keeping?",
+        title: "Do you think this type of building is generally worth keeping?",
         example: true,
     },
     community_type_worth_keeping_reasons: {
