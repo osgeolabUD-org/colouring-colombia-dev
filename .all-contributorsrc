@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "mfbenitezp",
+      "name": "Fernando Benitez-Paez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4097295?v=4",
+      "profile": "https://fernandobenitez.co",
+      "contributions": [
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "colouring-colombia",
+  "projectOwner": "osgeolabUD-org"
+}

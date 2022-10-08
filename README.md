@@ -1,4 +1,7 @@
 # Colouring Colombia - Bogotá
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors)
 ![Build status](https://github.com/colouring-london/colouring-london/workflows/Node.js%20CI/badge.svg)
 
@@ -44,6 +47,21 @@ visualising twelve categories of information on Bogotá’s buildings.
 ## Contributors
 <!-- this section is updated using external bot, see https://allcontributors.org/docs/en/bot/usage - post comment like
 @all-contributors please add @<username> for <contributions>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://fernandobenitez.co"><img src="https://avatars.githubusercontent.com/u/4097295?v=4?s=100" width="100px;" alt="Fernando Benitez-Paez"/><br /><sub><b>Fernando Benitez-Paez</b></sub></a><br /><a href="#projectManagement-mfbenitezp" title="Project Management">📆</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 to trigger it, for example
 @all-contributors please add @<username> for code
 @all-contributors please add @<username> for code and docs
