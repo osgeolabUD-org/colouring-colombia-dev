@@ -1,6 +1,6 @@
 # Colouring Colombia - Bogotá
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors)
 ![Build status](https://github.com/colouring-london/colouring-london/workflows/Node.js%20CI/badge.svg)
@@ -54,6 +54,7 @@ visualising twelve categories of information on Bogotá’s buildings.
   <tbody>
     <tr>
       <td align="center"><a href="https://fernandobenitez.co"><img src="https://avatars.githubusercontent.com/u/4097295?v=4?s=100" width="100px;" alt="Fernando Benitez-Paez"/><br /><sub><b>Fernando Benitez-Paez</b></sub></a><br /><a href="#projectManagement-mfbenitezp" title="Project Management">📆</a></td>
+      <td align="center"><a href="http://paulocoronado.blogspot.com.co/"><img src="https://avatars.githubusercontent.com/u/1460156?v=4?s=100" width="100px;" alt="Paulo César Coronado"/><br /><sub><b>Paulo César Coronado</b></sub></a><br /><a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=paulocoronado" title="Code">💻</a> <a href="#projectManagement-paulocoronado" title="Project Management">📆</a></td>
     </tr>
   </tbody>
 </table>
