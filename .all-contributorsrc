@@ -42,6 +42,15 @@
       "contributions": [
         "projectManagement"
       ]
+    },
+    {
+      "login": "JavierBeltram",
+      "name": "Javier Alejandro Beltrán Rodriguez ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107954742?v=4",
+      "profile": "https://github.com/JavierBeltram",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
