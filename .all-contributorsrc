@@ -24,6 +24,15 @@
         "code",
         "projectManagement"
       ]
+    },
+    {
+      "login": "osgeolabud",
+      "name": "Laboratorio Geoespacial Basado en Código Abierto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40511766?v=4",
+      "profile": "http://comunidad.udistrital.edu.co/osgeolabud/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
