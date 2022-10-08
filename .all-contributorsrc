@@ -1,6 +1,6 @@
 {
-  "projectName": "colouring-london",
-  "projectOwner": "colouring-cities",
+  "projectName": "colouring-colombia",
+  "projectOwner": "osgeolabUD-org",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -32,7 +32,7 @@
         "code",
         "doc"
       ]
-    },    
+    },
     {
       "login": "mz8i",
       "name": "mz8i",
@@ -126,8 +126,19 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "paulocoronado",
+      "name": "Paulo César Coronado",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1460156?v=4",
+      "profile": "http://paulocoronado.blogspot.com.co/",
+      "contributions": [
+        "code",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
