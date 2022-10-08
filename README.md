@@ -47,6 +47,11 @@ visualising twelve categories of information on Bogotá’s buildings.
 ## Contributors
 <!-- this section is updated using external bot, see https://allcontributors.org/docs/en/bot/usage - post comment like
 @all-contributors please add @<username> for <contributions>
+to trigger it, for example
+@all-contributors please add @<username> for code
+@all-contributors please add @<username> for code and docs
+-->
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -63,19 +68,7 @@ visualising twelve categories of information on Bogotá’s buildings.
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-to trigger it, for example
-@all-contributors please add @<username> for code
-@all-contributors please add @<username> for code and docs
--->
-Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 Even more thanks go to Colouring London contributors, funders, project partners, consultees,
