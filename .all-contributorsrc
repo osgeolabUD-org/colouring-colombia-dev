@@ -136,6 +136,15 @@
         "code",
         "projectManagement"
       ]
+    },
+    {
+      "login": "BryanUrrego",
+      "name": "Bryan Urrego",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108369168?v=4",
+      "profile": "https://github.com/BryanUrrego",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
