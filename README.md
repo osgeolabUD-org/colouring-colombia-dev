@@ -43,6 +43,9 @@ visualising twelve categories of information on Bogotá’s buildings.
 
     You should have received a copy of the GNU General Public License
     along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+## Setup of development environment
+You can try out the Colouring Colombia application by setting up your own development environment. Please see the [instructions](docs/setup-dev-environment.md).  
     
 ## Colouring Cities Contributors
 Thanks go to Colouring London contributors, funders, project partners, consultees,
