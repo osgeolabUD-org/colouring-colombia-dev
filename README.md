@@ -5,7 +5,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors)
 ![Build status](https://github.com/colouring-london/colouring-london/workflows/Node.js%20CI/badge.svg)
 
-This is the initial repo where we are adapting the initial colouring repo to a local version in Colombia starting with Bogotá. The local academic institution leading this initiatiave is La Universidad Distrital Francisco Jose de Caldas.
+This is the initial repo where we are adapting the initial colouring repo to a local version in Colombia starting with Bogotá. The local academic institution leading this initiatiave is [Universidad Distrital Francisco Jose de Caldas] (https://www.udistrital.edu.co/inicio).
 
 Soon avaliable in https://bogota.colouring-cities.org
 
@@ -84,7 +84,7 @@ to trigger it, for example
 @all-contributors please add @<username> for code
 @all-contributors please add @<username> for code and docs
 -->
-Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+Thanks goes  to the wonderful people of GEIPER, ASTROINGENIERÍA and OSGEOLABUD: ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
