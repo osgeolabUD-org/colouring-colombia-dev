@@ -1,6 +1,6 @@
 # Colouring Colombia - Bogotá
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors)
 ![Build status](https://github.com/colouring-london/colouring-london/workflows/Node.js%20CI/badge.svg)
@@ -71,6 +71,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
       <td align="center"><a href="https://github.com/Gabyromeros"><img src="https://avatars.githubusercontent.com/u/108367488?v=4?s=100" width="100px;" alt="Gabyromeros"/><br /><sub><b>Gabyromeros</b></sub></a><br /><a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=Gabyromeros" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/JuanDDB"><img src="https://avatars.githubusercontent.com/u/54457007?v=4?s=100" width="100px;" alt="JuanDDB"/><br /><sub><b>JuanDDB</b></sub></a><br /><a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=JuanDDB" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/BryanUrrego"><img src="https://avatars.githubusercontent.com/u/108369168?v=4?s=100" width="100px;" alt="Bryan Urrego"/><br /><sub><b>Bryan Urrego</b></sub></a><br /><a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=BryanUrrego" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/DavidLievano05"><img src="https://avatars.githubusercontent.com/u/108485500?v=4?s=100" width="100px;" alt="DavidLievano05"/><br /><sub><b>DavidLievano05</b></sub></a><br /><a href="https://github.com/osgeolabUD-org/colouring-colombia/commits?author=DavidLievano05" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
